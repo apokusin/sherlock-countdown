@@ -62,12 +62,12 @@ $(document).ready(function() {
     return false;
   });
 
-  KeyboardJS.on("left, j", function() {
+  KeyboardJS.on("left, h", function() {
     prevNavItem();
     return false;
   });
 
-  KeyboardJS.on("right, ;", function() {
+  KeyboardJS.on("right, l", function() {
     nextNavItem();
     return false;
   });
