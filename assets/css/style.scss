@@ -24,10 +24,10 @@ body {
   -webkit-filter: blur(1px) grayscale(0.2);
   @include transform-origin(top left);
   @include transform(scale(5));
+  @include transition(background-image 100ms ease-in-out);
   z-index: -1;
   opacity: 0.6;
 }
-
 
 .countdown_wrap {
   z-index: 15;
@@ -106,15 +106,29 @@ body {
   cursor: pointer;
 }
 
-.pokusin_link {
+.links {
   position: absolute;
   bottom: 1.5em;
   left: 1.5em;
   z-index: 15;
-  color: white;
+  a {
+    color: white;
+  }
   text-decoration: none;
   font-weight: 100;
   font-size: 1em;
+  .social {
+    height: 21px;
+    margin-top: 1em;
+    opacity: 0.5;
+    &:hover, &:focus {
+      opacity: 1;
+    }
+    a {
+      width: auto;
+      float: left;
+    }
+  }
 }
 
 .nav_selector {

@@ -1,0 +1,1869 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"center",
+				"centerTopMargin"
+			],
+			[
+				"next",
+				"nextNavItem"
+			],
+			[
+				"nav",
+				"nav_selector"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"genera",
+				"generateShareURL"
+			],
+			[
+				"vi",
+				"visible"
+			],
+			[
+				"visi",
+				"visibility"
+			],
+			[
+				"translate",
+				"translateY"
+			],
+			[
+				"main_image",
+				"main_image_stats"
+			],
+			[
+				"main_",
+				"main_image_area"
+			],
+			[
+				"mini",
+				"ministats"
+			],
+			[
+				"posts_g",
+				"posts_gallery_half"
+			],
+			[
+				"upload",
+				"upload_main_image"
+			],
+			[
+				"timeS",
+				"timeStampValue"
+			],
+			[
+				"ace",
+				"actionArea"
+			],
+			[
+				"default",
+				"defaultBorderRadius"
+			],
+			[
+				"visib",
+				"visibility"
+			],
+			[
+				"html",
+				"html_safe"
+			],
+			[
+				"current",
+				"current_password"
+			],
+			[
+				"accoun",
+				"account_dropdown_area"
+			],
+			[
+				"account",
+				"account_dropdown"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"main",
+				"mainColorDark"
+			],
+			[
+				"mainColor",
+				"mainColorDark"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"rating_",
+				"rating_highlight"
+			],
+			[
+				"border-rad",
+				"border-bottom-left-radius"
+			],
+			[
+				"ext",
+				"extend"
+			],
+			[
+				"uploaded",
+				"uploadedDate"
+			],
+			[
+				"mainCol",
+				"mainColorLight"
+			],
+			[
+				"defaul",
+				"defaultShadowBox"
+			],
+			[
+				"logo",
+				"logo_dropdown_area"
+			],
+			[
+				"cu",
+				"currentuser_image"
+			],
+			[
+				"key",
+				"keyframes"
+			],
+			[
+				"thumbn",
+				"thumbnailSlideInLeft"
+			],
+			[
+				"slid",
+				"slideUp"
+			],
+			[
+				"scale",
+				"scaleBack"
+			],
+			[
+				"scal",
+				"scaleIn"
+			],
+			[
+				"dismiss",
+				"dismissSignUp"
+			],
+			[
+				"local",
+				"localStorage"
+			],
+			[
+				"signUp",
+				"signUpDismissed"
+			],
+			[
+				"hidden",
+				"hidden_comments"
+			],
+			[
+				"hide",
+				"hiddenComments"
+			],
+			[
+				"comments",
+				"commentsToShow"
+			],
+			[
+				"mainCo",
+				"mainColor"
+			],
+			[
+				"light",
+				"lightBG"
+			],
+			[
+				"link",
+				"defaultLinkColorHover"
+			],
+			[
+				"fivemod",
+				"fivemode_star"
+			],
+			[
+				"second",
+				"secondaryColor"
+			],
+			[
+				"prepend",
+				"prependTo"
+			],
+			[
+				"remove",
+				"removeClass"
+			],
+			[
+				"upsell",
+				"upsell_secondary"
+			],
+			[
+				"bordertopri",
+				"border-top-radius"
+			],
+			[
+				"border",
+				"border-top-radius"
+			],
+			[
+				"thumbna",
+				"thumbnail_bar"
+			],
+			[
+				"prepen",
+				"prependTo"
+			],
+			[
+				"mainC",
+				"mainColor"
+			],
+			[
+				"transl",
+				"translateY"
+			],
+			[
+				"nex",
+				"nextImage"
+			],
+			[
+				"thum",
+				"thumbImages"
+			],
+			[
+				"t",
+				"thumbImages"
+			],
+			[
+				"new_",
+				"new_image"
+			],
+			[
+				"fall",
+				"fallIn"
+			],
+			[
+				"rated",
+				"ratedArea"
+			],
+			[
+				"thumbnail",
+				"thumbnailSlideIn"
+			],
+			[
+				"new",
+				"newRatedImage"
+			],
+			[
+				"render",
+				"renderStars"
+			],
+			[
+				"for",
+				"forin	Array Comprehension"
+			],
+			[
+				"add",
+				"addRatedThumb"
+			],
+			[
+				"thumbnails",
+				"thumbnails_area"
+			],
+			[
+				"deful",
+				"defaultBorderRadius"
+			],
+			[
+				"trans",
+				"translateX"
+			],
+			[
+				"ease",
+				"ease-in-out"
+			],
+			[
+				"mult",
+				"multiView"
+			],
+			[
+				"mul",
+				"multiView"
+			],
+			[
+				"sing",
+				"singleView"
+			],
+			[
+				"main_im",
+				"main_image_area"
+			],
+			[
+				"submit",
+				"submit_notice"
+			],
+			[
+				"commen",
+				"commentLength"
+			],
+			[
+				"comment",
+				"commentLength"
+			],
+			[
+				"hidde",
+				"hiddenComments"
+			],
+			[
+				"break",
+				"break-word"
+			],
+			[
+				"word-",
+				"word-wrap"
+			],
+			[
+				"rated_",
+				"rated_images_area"
+			],
+			[
+				"spa",
+				"span-columns"
+			],
+			[
+				"defa",
+				"defaultShadowBox"
+			],
+			[
+				"linear",
+				"linear-gradient"
+			],
+			[
+				"rat",
+				"rating_overlay"
+			],
+			[
+				"font",
+				"fontColor"
+			],
+			[
+				"fontCo",
+				"fontColorLight"
+			],
+			[
+				"comment_",
+				"comment_new_area"
+			],
+			[
+				"def",
+				"defaultBorderRadius"
+			],
+			[
+				"outer",
+				"outer-container"
+			],
+			[
+				"fontSt",
+				"fontStackSans"
+			],
+			[
+				"upp",
+				"upper-alpha"
+			],
+			[
+				"list-style",
+				"list-style-type"
+			],
+			[
+				"source",
+				"sourcesanspro/s"
+			],
+			[
+				"mainLink",
+				"mainLinkHoverColor"
+			],
+			[
+				"bg",
+				"background"
+			],
+			[
+				"error",
+				"errorColor"
+			],
+			[
+				"notifi",
+				"notification_dropdown"
+			],
+			[
+				"limit",
+				"limit_number"
+			],
+			[
+				"last",
+				"last-child"
+			],
+			[
+				"table",
+				"table-column"
+			],
+			[
+				"nav_",
+				"nav_dropdown_container"
+			],
+			[
+				"profile_",
+				"profile_dropdown"
+			],
+			[
+				"stick",
+				"stickiesLoad"
+			],
+			[
+				"stic",
+				"stickiesLoad"
+			],
+			[
+				"page_nav",
+				"page_nav_wrap"
+			],
+			[
+				"net",
+				"nextPageID"
+			],
+			[
+				"page_n",
+				"page_nav_wrap"
+			],
+			[
+				"appen",
+				"appendTrigger"
+			],
+			[
+				"display",
+				"displayAction"
+			],
+			[
+				"player_",
+				"player_btn"
+			],
+			[
+				"content",
+				"contentArea"
+			],
+			[
+				"liste",
+				"listening_text"
+			],
+			[
+				"rel",
+				"relative"
+			],
+			[
+				"media",
+				"@media	@media ${1:screen} {\n	${0}\n}"
+			],
+			[
+				"commerc",
+				"commercial_bar"
+			],
+			[
+				"prof",
+				"prof_f_name"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"proxim",
+				"proxima-nova"
+			],
+			[
+				"profiles",
+				"profiles_list"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"conten",
+				"content_light"
+			],
+			[
+				"fancy",
+				"fancyDropdownInit"
+			],
+			[
+				"paddi",
+				"padding-bottom"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/JSLint/JSLint.sublime-build",
+	"command_palette":
+	{
+		"height": 374.0,
+		"selected_items":
+		[
+			[
+				"new",
+				"File: New File Relative to Current View"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"bower",
+				"Bower: Install"
+			],
+			[
+				"format",
+				"Format: Javascript"
+			],
+			[
+				"javascript",
+				"Format: Javascript"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ren",
+				"File: Rename"
+			],
+			[
+				"new fil",
+				"File: New File Relative to Current View"
+			],
+			[
+				"syn",
+				"Set Syntax: SCSS"
+			],
+			[
+				"rename",
+				"File: Rename"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"synt sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"rena",
+				"File: Rename"
+			],
+			[
+				"html",
+				"Snippet: html"
+			],
+			[
+				"bowe",
+				"Bower: Discover packages"
+			],
+			[
+				"new file",
+				"File: New File Relative to Current View"
+			],
+			[
+				"move",
+				"File: Move"
+			],
+			[
+				"parti",
+				"Rails Partial: Create Partial from Text"
+			],
+			[
+				"nerw",
+				"File: New File Relative to Current View"
+			],
+			[
+				"delet",
+				"File: Delete"
+			],
+			[
+				"partia",
+				"Rails Partial: Create Partial and Open"
+			],
+			[
+				"new f",
+				"File: New File Relative to Current View"
+			],
+			[
+				"newf",
+				"File: New View into File"
+			],
+			[
+				"syn sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"syn sas",
+				"Set Syntax: Sass"
+			],
+			[
+				"syn javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syn java",
+				"Set Syntax: Java"
+			],
+			[
+				"coffe",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"reind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"toggle si",
+				"View: Toggle Side Bar"
+			],
+			[
+				"color",
+				"ColorSchemeSelector: Select Color Scheme"
+			],
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"hover",
+				"Snippet: hover"
+			],
+			[
+				"snipp hover",
+				"Snippet: hover"
+			],
+			[
+				"csslis",
+				"Csslisible : Run"
+			],
+			[
+				"css",
+				"Csslisible : Run"
+			],
+			[
+				"reint",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"dele",
+				"File: Delete"
+			],
+			[
+				"preview ",
+				"Pandoc: Render Markdown to temp HTML and View"
+			],
+			[
+				"markdown prev",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"new ",
+				"File: New File Relative to Current View"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"change",
+				"Change tracker: Highlight changes"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"delete",
+				"File: Delete"
+			],
+			[
+				"syntax rail",
+				"Set Syntax: HTML (Rails)"
+			],
+			[
+				"jquery",
+				"Set Syntax: jQuery (JavaScript)"
+			],
+			[
+				"disabl",
+				"Package Control: Disable Package"
+			],
+			[
+				"colo",
+				"ColorSchemeSelector: Select Color Scheme"
+			],
+			[
+				"color ",
+				"ColorSchemeSelector: Select Color Scheme"
+			],
+			[
+				"quic",
+				"QuickThemes: previous"
+			],
+			[
+				"quickthe",
+				"QuickThemes: next"
+			],
+			[
+				"theme",
+				"QuickThemes: next"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"partial",
+				"Rails Partial: Create Partial and Open"
+			],
+			[
+				"list ",
+				"Simple Rails Navigator: List views"
+			],
+			[
+				"place",
+				"Placehold.it: Insert Image"
+			],
+			[
+				"placehold",
+				"Placehold.it: Insert Image"
+			],
+			[
+				"lorem",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"live",
+				"Live CSS: Colorize"
+			],
+			[
+				"list views",
+				"Simple Rails Navigator: List views"
+			],
+			[
+				"models",
+				"Simple Rails Navigator: List models"
+			],
+			[
+				"sidebar",
+				"View: Toggle Side Bar"
+			],
+			[
+				"snippet tag",
+				"Snippet: Wrap Selection in Open/Close Tag"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"fetch",
+				"FTPSync: Setup FTPSync in this folder"
+			],
+			[
+				"rails",
+				"Simple Rails Navigator: List views"
+			],
+			[
+				"tidy",
+				"Tidy HTML"
+			],
+			[
+				"list rails",
+				"Rails Latest Migration: Open latest Rails migration"
+			],
+			[
+				"package ins",
+				"Package Control: Install Package"
+			],
+			[
+				":i",
+				"File: New View into File"
+			],
+			[
+				"package instal",
+				"Package Control: Install Package"
+			],
+			[
+				"package install",
+				"Package Control: Install Package"
+			],
+			[
+				"package install ",
+				"Package Control: Install Package"
+			],
+			[
+				"packa install",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 561.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/artur/github/sherlock-countdown/index.html",
+		"/Users/artur/github/sherlock-countdown/assets/css/style.scss",
+		"/Users/artur/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/artur/github/sherlock-countdown/alt.html",
+		"/Users/artur/github/sherlock-countdown/assets/js/alt.js",
+		"/Users/artur/github/sherlock-countdown/assets/css/alt.scss",
+		"/Users/artur/github/sherlock-countdown/assets/js/fatpixels.js",
+		"/Users/artur/github/Sherlock/assets/css/style.scss",
+		"/Users/artur/github/Sherlock/index.html",
+		"/Users/artur/github/Sherlock/assets/js/app.js",
+		"/Users/artur/github/Sherlock/assets/css/fontello.css",
+		"/Volumes/MediaTemple/sherlockcountdown.com/html/alpha/index.html",
+		"/Users/artur/github/Sherlock/assets/js/jquery.countdown.min.js",
+		"/Users/artur/github/Sherlock/assets/js/jquery.countdown.min",
+		"/Users/artur/github/Sherlock/assets/css/style.sass",
+		"/Users/artur/github/Sherlock/Build/assets/css/style.css",
+		"/Users/artur/github/Sherlock/assets/css/normalize.css",
+		"/Users/artur/github/BBad-Countdown/assets/css/style.scss",
+		"/Users/artur/github/BBad-Countdown/includes/_header.html",
+		"/Users/artur/github/BBad-Countdown/assets/js/app.js",
+		"/Users/artur/github/BBad-Countdown/assets/js/countdown.min.js",
+		"/Users/artur/github/BBad-Countdown/assets/js/jquery-1.8.3.min.js",
+		"/Users/artur/github/BBad-Countdown/includes/_footer.html",
+		"/Users/artur/github/BBad-Countdown/index.html",
+		"/Users/artur/github/BBad-Countdown/README.markdown",
+		"/Users/artur/Downloads/jquery.countdown.package-1.6.2/countdownBasic.html",
+		"/Users/artur/Downloads/jquery.countdown.package-1.6.2/jquery.countdown.min.js",
+		"/Users/artur/github/BBad-Countdown/assets/css/normalize.css",
+		"/Users/artur/github/BBad-Countdown/README.md",
+		"/Users/artur/github/RMS/app/assets/javascripts/pages.js.coffee",
+		"/Users/artur/github/RMS/app/views/devise/registrations/edit.html.erb",
+		"/Users/artur/github/RMS/app/assets/stylesheets/base.css.sass",
+		"/Users/artur/github/RMS/app/views/pages/index.html.erb",
+		"/Users/artur/Library/Caches/Cleanup At Startup/Transmit/65B1B027-2F0D-461E-A3B7-B6AACCB134DD/stylesheet.css",
+		"/Users/artur/github/RMS/app/views/gallery/feed.html.erb",
+		"/Users/artur/github/RMS/Gemfile",
+		"/Users/artur/github/RMS/app/views/cars/new.html.erb",
+		"/Users/artur/github/RMS/app/views/gallery/top.html.erb",
+		"/Users/artur/github/RMS/app/views/layouts/gallery.html.erb",
+		"/Users/artur/github/RMS/app/views/layouts/application.html.erb",
+		"/Users/artur/github/RMS/tmp/cache/assets/development/sass/8cc0219299d976f21f1ab89bf003ae87b7c58736/_timing-functions.scssc",
+		"/Users/artur/github/RMS/app/views/shared/_main_nav.html.erb",
+		"/Users/artur/github/RMS/config/routes.rb",
+		"/Users/artur/github/RMS/app/views/layouts/_main_nav.html.erb",
+		"/Users/artur/github/RMS/app/assets/stylesheets/gallery.css.sass",
+		"/Users/artur/github/RMS/app/views/shared/_footer.html.erb",
+		"/Users/artur/github/RMS/app/views/layouts/_footer.html.erb",
+		"/Users/artur/github/RMS/app/views/gallery/featured.html.erb",
+		"/Users/artur/github/RMS/app/views/shared/_account.html.erb",
+		"/Users/artur/github/RMS/app/views/cars/index.html.erb",
+		"/Users/artur/github/RMS/app/assets/stylesheets/chosen.css",
+		"/Users/artur/github/RMS/app/assets/javascripts/application.js",
+		"/Users/artur/github/RMS/app/assets/stylesheets/application.css.scss",
+		"/Users/artur/github/RMS/app/assets/javascripts/chosen.jquery.min.js",
+		"/Users/artur/Downloads/chosen-master/public/chosen.jquery.min.js",
+		"/Users/artur/Downloads/chosen-master/coffee/chosen.jquery.coffee",
+		"/Users/artur/Downloads/chosen-master/chosen.jquery.json",
+		"/Users/artur/github/RMS/app/views/devise/mailer/confirmation_instructions.html.erb",
+		"/Users/artur/github/RMS/app/views/cars/show.html.erb",
+		"/Users/artur/github/RMS/app/uploaders/file_uploader.rb",
+		"/Users/artur/github/RMS/tmp/cache/assets/development/sass/10fd83191ef4c2fe8cf97632dbb56457f3e17a21/_neat.scssc",
+		"/Users/artur/github/RMS/app/controllers/cars_controller.rb",
+		"/Users/artur/github/RMS/app/views/layouts/min.html.erb",
+		"/Users/artur/github/RMS/app/views/cars/create.html.erb",
+		"/Users/artur/github/RMS/app/views/devise/registrations/new.html.erb",
+		"/Users/artur/github/RMS/app/models/user.rb",
+		"/Users/artur/github/RMS/app/controllers/application_controller.rb",
+		"/Users/artur/github/RMS/app/controllers/RegistrationsController.rb",
+		"/Users/artur/github/RMS/app/controllers/registrations_controller.rb",
+		"/Users/artur/github/RMS/app/controllers/registration_controller.rb",
+		"/Users/artur/github/RMS/app/controllers/gallery_controller.rb",
+		"/Users/artur/github/RMS/app/assets/stylesheets/min.css.sass",
+		"/Users/artur/github/RMS/app/models/car.rb",
+		"/Users/artur/github/RMS/app/views/shared/_header.html.erb",
+		"/Users/artur/github/RMS/app/views/layouts/_header.html.erb",
+		"/Users/artur/github/RMS/app/controllers/pages_controller.rb",
+		"/Users/artur/github/RMS/app/views/gallery/index.html.erb",
+		"/Users/artur/github/RMS/app/assets/stylesheets/gallery.css.scss",
+		"/Users/artur/github/RMS/app/views/layouts/gallery.min.html",
+		"/Users/artur/github/RMS/app/views/devise/passwords/new.html.erb",
+		"/Users/artur/github/RMS/app/views/devise/confirmations/new.html.erb",
+		"/Users/artur/github/RMS/config/locales/devise.en.yml",
+		"/Users/artur/github/RMS/app/views/devise/shared/_links.erb",
+		"/Users/artur/github/RMS/app/views/devise/sessions/new.html.erb",
+		"/Users/artur/github/RMS/tmp/cache/assets/development/sass/8b5f0cd681f8d504d59d0a9e0a595c0235f02e96/_bourbon-deprecated-upcoming.scssc",
+		"/Users/artur/github/RMS/config/initializers/devise.rb",
+		"/Users/artur/github/RMS/spec/integration/sign_up_and_login.rb_spec.rb",
+		"/Users/artur/github/RMS/Gemfile.lock",
+		"/Users/artur/github/RMS/app/views/assets/stylesheets/min.css.sass",
+		"/Users/artur/github/RMS/app/views/devise/sessions/stylesheets/min.css.sass",
+		"/Users/artur/github/RMS/app/views/devise/sessions/min.css.sass",
+		"/Users/artur/github/RMS/config/application.rb",
+		"/Users/artur/github/RMS/tmp/cache/assets/development/sass/5cc96962b9c6808084171fc18506f5b6f950d948/_render-gradients.scssc",
+		"/Users/artur/github/RMS/spec/support/sign_in_helpers.rb",
+		"/Users/artur/github/RMS/app/assets/stylesheets/font/fontello.css",
+		"/Users/artur/github/RMS/app/assets/javascripts/mousetrap.min.js",
+		"/Users/artur/github/RMS/config.ru",
+		"/Users/artur/github/RMS/.git/info/exclude",
+		"/Users/artur/github/RMS/app/assets/stylesheets/reset.css",
+		"/Users/artur/github/RMS/.rvmrc",
+		"/Users/artur/.bashrc",
+		"/Users/artur/.bash_profile",
+		"/Users/artur/github/RMS/mkmf.log",
+		"/Users/artur/github/RMS/logs/mkmf.log",
+		"/Users/artur/github/RMS/app/assets/stylesheets/base.css.scss",
+		"/Users/artur/github/Scrollling/assets/js/app.js",
+		"/Users/artur/github/Scrollling/assets/js/app.coffee",
+		"/Users/artur/github/Scrollling/assets/js/app.js.coffee",
+		"/Users/artur/.osx",
+		"/Users/artur/github/personal-jesus/app/views/notes/index.html.erb",
+		"/Users/artur/github/personal-jesus/app/assets/stylesheets/application.css.scss",
+		"/Users/artur/github/personal-jesus/app/assets/stylesheets/base.css.scss",
+		"/Users/artur/github/personal-jesus/app/views/notes/show.html.erb",
+		"/Users/artur/Downloads/MarkdownTest_1.0/Tests/Markdown Documentation - Syntax.text",
+		"/Users/artur/github/personal-jesus/app/views/notes/search.js.coffee",
+		"/Users/artur/github/personal-jesus/app/views/layouts/application.html.erb",
+		"/Users/artur/github/personal-jesus/app/assets/javascripts/application_init.js.coffee",
+		"/Users/artur/github/personal-jesus/app/assets/javascripts/application.js",
+		"/Users/artur/github/help.preserve.io/stylesheets/base.scss",
+		"/Users/artur/github/help.preserve.io/_layouts/default.html",
+		"/Users/artur/github/help.preserve.io/stylesheets/sourcesanspro/sourcesanspro.css",
+		"/Users/artur/github/help.preserve.io/index.html",
+		"/Users/artur/github/preserve/app/assets/stylesheets/base.css.scss",
+		"/Users/artur/github/help.preserve.io/_site/social/how-can-i-follow-my-friends.html",
+		"/Users/artur/github/help.preserve.io/stylesheets/base.css",
+		"/Users/artur/github/preserve/app/assets/stylesheets/utilities.css.scss",
+		"/Users/artur/github/preserve/app/views/admin/shared/_menu.html.erb",
+		"/Users/artur/github/preserve/app/assets/javascripts/bookmarks.js.coffee"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"*"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"20%;",
+			"gif",
+			"donkeyKong",
+			"gif",
+			"app",
+			"main",
+			"nav",
+			"this",
+			"modal",
+			"nav",
+			"30px",
+			"icon",
+			"n",
+			"main_nav",
+			"ent;",
+			"main_nav",
+			"event",
+			"unsupp",
+			"1em",
+			".gif",
+			"20%",
+			"counter",
+			"updateBodyClass",
+			".filter",
+			"mox-d",
+			"gif",
+			"updateURLHash",
+			"first",
+			"ref=\"#\"",
+			"<a href=\"#\" ",
+			"box-sh",
+			"10px",
+			"opacity",
+			"filter",
+			"border",
+			"nav_se",
+			"15px",
+			"sans",
+			"box-sizi",
+			"wn.com",
+			"html",
+			"days",
+			", ",
+			"hours",
+			"austDay",
+			"genURL",
+			" {",
+			"transition",
+			"section",
+			"@media",
+			"media",
+			"600px",
+			"hover",
+			"h2",
+			"h3",
+			"section",
+			"email",
+			"top",
+			"signup",
+			"third",
+			"form",
+			"section",
+			"third",
+			"slideInTo",
+			"scaleIn",
+			"not_so",
+			"animation",
+			"comments",
+			"hidden_comments",
+			"hidden_",
+			"hidden",
+			"popover",
+			"info",
+			"popover",
+			"header_ba",
+			"header_br",
+			"li",
+			"tabs",
+			"pass",
+			"logo_dropdown_area",
+			"300px",
+			"75px",
+			"upload",
+			"main_image",
+			"400",
+			"crop",
+			"632",
+			"layout",
+			"crop",
+			"13px",
+			"<select",
+			"select",
+			"car_make",
+			"sprite",
+			"rating_star",
+			"report",
+			"main_image",
+			"main_menu",
+			"main_image",
+			"popover",
+			"main_image_s",
+			"View photo stats",
+			"main_image",
+			";",
+			"info",
+			"posts_gallery",
+			"follow",
+			";",
+			"5px",
+			";",
+			"%=",
+			"neil",
+			"nei",
+			"date_sta",
+			"date_stmap",
+			"<img id",
+			"internal",
+			"internal_area",
+			"ype=\"file",
+			"100px",
+			"user_drop",
+			"load\"></span>",
+			";",
+			"Thumbnail ",
+			"label for",
+			"abel",
+			"main_image",
+			"1.3em"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"\\\"",
+			"",
+			"ranmode",
+			"ranmode_star",
+			"\"",
+			"",
+			"\\\"",
+			"",
+			"invitation_count",
+			"</i> Users'.html",
+			"Designer",
+			"0",
+			"firstLetter",
+			"$(\"",
+			"              <li><a href=\"product.html\" class=\"btn btn-link \">iMac 27\" <i class=\"icon-circle-arrow-right\"></i></a></li>\n              <li><a href=\"product.html\" class=\"btn btn-link \">iPhone 16GB Wi-Fi Black <i class=\"icon-circle-arrow-right\"></i></a></li>\n              <li><a href=\"product.html\" class=\"btn btn-link \">iPad 3G AT&amp;T 16GB White  <i class=\"icon-circle-arrow-right\"></i></a></li>",
+			"<a href=\"product.html\" class=\"thumb\">",
+			"               <li><a href=\"profile.html\">Your Profile</a></li>\n                <li><a href=\"#\">Another action</a></li>\n                <li><a href=\"#\">Something else here</a></li>",
+			"<a href=\"product.html\" class=\"btn btn-small pull-right\">View Product</a>",
+			"<a class=\"brand\" href=\"index.html\">Summarize</a>",
+			"210x140",
+			"211x140",
+			"$mobile $tablet",
+			"#59a000",
+			"http://cdn.preserve.io/error/",
+			"869px",
+			"#fafafa",
+			"You're invited to Preserve.io!",
+			"$color",
+			"$light_color",
+			"$color",
+			"$neutral_main",
+			"$bg_color",
+			"error_logo@2x.png",
+			"    <div class=\"kitteh\"></div>",
+			"    <a class=\"logo\" href=\"http://preserve.io\"><img src=\"error_logo.png\" width=\"167\" height=\"64\" alt=\"preserve.io\"></a>",
+			"    <a class=\"logo\" href=\"http://preserve.io\">Kitteh</a>",
+			"    <a class=\"logo\" href=\"http://preserve.io\"><img src=\"error_logo.png\" width=\"167\" height=\"64\" alt=\"preserve.io\"></a>",
+			"    <a href=\"http://preserve.io\"><img src=\"error_logo.png\" width=\"167\" height=\"64\" alt=\"preserve.io\" class=\"logo\"></a>",
+			"#f9fff2",
+			"Statistics",
+			"Keep your bookmarks safe",
+			"A description",
+			"h3",
+			"Stats",
+			"stats",
+			"2.09",
+			"h3 class=\"title\"",
+			"class=\"title\"",
+			"Crete Round', sans-serif;\nfont-style: italic;",
+			"Crete Round",
+			"padding-left: 15px;",
+			"<%#",
+			"\"",
+			"() {",
+			"function ()",
+			"color",
+			"light_main",
+			"$neutral_main",
+			"darkest_main",
+			"dark_main",
+			"main",
+			"main_dark",
+			"#8e0713",
+			"1.14",
+			"1.1.4",
+			"dex",
+			"aa0000",
+			".login_button",
+			".photographer-attr",
+			"0.06s",
+			"0.1s",
+			".lightbox .fp_albums",
+			".lightbox .album",
+			".lightbox",
+			"photoViewer_v04_sprite_01",
+			"profile_variables",
+			"apokusin",
+			"# Include",
+			"Include"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 120.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"style",
+				"sherlock-countdown/assets/css/style.scss"
+			],
+			[
+				"inde",
+				"sherlock-countdown/index.html"
+			],
+			[
+				"altjs",
+				"sherlock-countdown/assets/js/alt.js"
+			],
+			[
+				"alt",
+				"sherlock-countdown/alt.html"
+			],
+			[
+				"fonte",
+				"assets/css/fontello.css"
+			],
+			[
+				"fontell",
+				"assets/css/fontello.css"
+			],
+			[
+				"app",
+				"assets/js/app.js"
+			],
+			[
+				"index",
+				"index.html"
+			],
+			[
+				"styl",
+				"assets/css/style.sass"
+			],
+			[
+				"norma",
+				"assets/css/normalize.css"
+			],
+			[
+				"js",
+				"assets/js/app.js"
+			],
+			[
+				"count",
+				"assets/js/countdown.min.js"
+			],
+			[
+				"jquery",
+				"assets/js/jquery-1.8.3.min.js"
+			],
+			[
+				"head",
+				"includes/_header.html"
+			],
+			[
+				"css",
+				"assets/css/style.scss"
+			],
+			[
+				"foot",
+				"includes/_footer.html"
+			],
+			[
+				"read",
+				"README.markdown"
+			],
+			[
+				"foo",
+				"includes/_footer.html"
+			],
+			[
+				"feed",
+				"app/views/gallery/feed.html.erb"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"base",
+				"app/assets/stylesheets/base.css.sass"
+			],
+			[
+				"pagesjs",
+				"app/assets/javascripts/pages.js.coffee"
+			],
+			[
+				"edit",
+				"app/views/devise/registrations/edit.html.erb"
+			],
+			[
+				"settings",
+				"tmp/cache/assets/development/sass/8cc0219299d976f21f1ab89bf003ae87b7c58736/_timing-functions.scssc"
+			],
+			[
+				"mainn",
+				"app/views/shared/_main_nav.html.erb"
+			],
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"top",
+				"app/views/gallery/top.html.erb"
+			],
+			[
+				"main_n",
+				"app/views/shared/_main_nav.html.erb"
+			],
+			[
+				"apphtml",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"gallhtml",
+				"app/views/layouts/gallery.html.erb"
+			],
+			[
+				"main",
+				"app/views/layouts/_main_nav.html.erb"
+			],
+			[
+				"",
+				"app/assets/javascripts/pages.js.coffee"
+			],
+			[
+				"layou",
+				"app/views/layouts/gallery.html.erb"
+			],
+			[
+				"gall",
+				"app/assets/stylesheets/gallery.css.sass"
+			],
+			[
+				"_foot",
+				"app/views/layouts/_footer.html.erb"
+			],
+			[
+				"featu",
+				"app/views/gallery/featured.html.erb"
+			],
+			[
+				"account",
+				"app/views/shared/_account.html.erb"
+			],
+			[
+				"chose",
+				"app/assets/stylesheets/chosen.css"
+			],
+			[
+				"carnew",
+				"app/views/cars/new.html.erb"
+			],
+			[
+				"appjs",
+				"app/assets/javascripts/application.js"
+			],
+			[
+				"appcss",
+				"app/assets/stylesheets/application.css.scss"
+			],
+			[
+				"acc",
+				"app/views/shared/_account.html.erb"
+			],
+			[
+				"accou",
+				"app/views/shared/_account.html.erb"
+			],
+			[
+				"gal",
+				"app/assets/stylesheets/gallery.css.sass"
+			],
+			[
+				"galler",
+				"app/assets/stylesheets/gallery.css.sass"
+			],
+			[
+				"gallery",
+				"app/views/layouts/gallery.html.erb"
+			],
+			[
+				"carinde",
+				"app/views/cars/index.html.erb"
+			],
+			[
+				"fileup",
+				"app/uploaders/file_uploader.rb"
+			],
+			[
+				"feature",
+				"app/views/gallery/featured.html.erb"
+			],
+			[
+				"carshow",
+				"app/views/cars/show.html.erb"
+			],
+			[
+				"viewca",
+				"app/views/cars/new.html.erb"
+			],
+			[
+				"carscon",
+				"app/controllers/cars_controller.rb"
+			],
+			[
+				"regine",
+				"app/views/devise/registrations/new.html.erb"
+			],
+			[
+				"contro",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"user",
+				"app/models/user.rb"
+			],
+			[
+				"coffee",
+				"app/assets/javascripts/pages.js.coffee"
+			],
+			[
+				"regedit",
+				"app/views/devise/registrations/edit.html.erb"
+			],
+			[
+				"basecss",
+				"app/assets/stylesheets/base.css.sass"
+			],
+			[
+				"min.",
+				"app/assets/stylesheets/min.css.sass"
+			],
+			[
+				"regiedit",
+				"app/views/devise/registrations/edit.html.erb"
+			],
+			[
+				"contr",
+				"app/controllers/cars_controller.rb"
+			],
+			[
+				"carrb",
+				"app/models/car.rb"
+			],
+			[
+				"model",
+				"app/models/car.rb"
+			],
+			[
+				"carscont",
+				"app/controllers/cars_controller.rb"
+			],
+			[
+				"car",
+				"app/views/cars/new.html.erb"
+			],
+			[
+				"deviscon",
+				"app/views/devise/mailer/confirmation_instructions.html.erb"
+			],
+			[
+				"gemf",
+				"Gemfile"
+			],
+			[
+				"title",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"galleryht",
+				"app/views/layouts/gallery.html.erb"
+			],
+			[
+				"gallinde",
+				"app/views/gallery/index.html.erb"
+			],
+			[
+				"rout",
+				"config/routes.rb"
+			],
+			[
+				"gallerycss",
+				"app/assets/stylesheets/gallery.css.sass"
+			],
+			[
+				"min",
+				"app/views/layouts/min.html.erb"
+			],
+			[
+				"mincss",
+				"app/assets/stylesheets/min.css.sass"
+			],
+			[
+				"galleryhtml",
+				"app/views/layouts/gallery.html.erb"
+			],
+			[
+				"bae",
+				"app/assets/stylesheets/base.css.sass"
+			],
+			[
+				"apphtl",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"cont",
+				"app/controllers/cars_controller.rb"
+			],
+			[
+				"appht",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"passnew",
+				"app/views/devise/passwords/new.html.erb"
+			],
+			[
+				"layout",
+				"app/views/layouts/min.html.erb"
+			],
+			[
+				"views",
+				"app/views/cars/show.html.erb"
+			],
+			[
+				"view",
+				"app/views/cars/show.html.erb"
+			],
+			[
+				"apph",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"pagecoff",
+				"app/assets/javascripts/pages.js.coffee"
+			],
+			[
+				"min.css",
+				"app/assets/stylesheets/min.css.sass"
+			],
+			[
+				"devis",
+				"config/initializers/devise.rb"
+			],
+			[
+				"deviseen",
+				"config/locales/devise.en.yml"
+			],
+			[
+				"link",
+				"app/views/devise/shared/_links.erb"
+			],
+			[
+				"regisne",
+				"app/views/devise/registrations/new.html.erb"
+			],
+			[
+				"sessnew",
+				"app/views/devise/sessions/new.html.erb"
+			],
+			[
+				"sharedlink",
+				"app/views/devise/shared/_links.erb"
+			],
+			[
+				"regis",
+				"app/views/devise/registrations/new.html.erb"
+			],
+			[
+				"sessionne",
+				"app/views/devise/sessions/new.html.erb"
+			],
+			[
+				"apprb",
+				"config/application.rb"
+			],
+			[
+				"devise",
+				"config/initializers/devise.rb"
+			],
+			[
+				"links",
+				"app/views/devise/shared/_links.erb"
+			],
+			[
+				"new",
+				"app/views/devise/registrations/new.html.erb"
+			],
+			[
+				"sign_",
+				"spec/support/sign_in_helpers.rb"
+			],
+			[
+				"pages",
+				"app/views/pages/index.html.erb"
+			],
+			[
+				"mous",
+				"app/assets/javascripts/mousetrap.min.js"
+			],
+			[
+				"font",
+				"app/assets/stylesheets/font/fontello.css"
+			],
+			[
+				"coffe",
+				"app/assets/javascripts/pages.js.coffee"
+			],
+			[
+				"rvmr",
+				".rvmrc"
+			],
+			[
+				"scss",
+				"app/assets/stylesheets/application.css.scss"
+			],
+			[
+				"show",
+				"app/views/notes/show.html.erb"
+			],
+			[
+				"searc",
+				"app/views/notes/search.js.coffee"
+			],
+			[
+				"source",
+				"stylesheets/sourcesanspro/sourcesanspro.css"
+			],
+			[
+				"base.scss",
+				"stylesheets/base.scss"
+			],
+			[
+				"utili",
+				"app/assets/stylesheets/utilities.css.scss"
+			],
+			[
+				"adminmen",
+				"app/views/admin/shared/_menu.html.erb"
+			],
+			[
+				"conden",
+				"app/assets/javascripts/jquery.condense.js"
+			],
+			[
+				"jqueryc",
+				"app/assets/javascripts/jquery.condense.js"
+			],
+			[
+				"bookmarksjs",
+				"app/assets/javascripts/bookmarks.js.coffee"
+			],
+			[
+				"appini",
+				"app/assets/javascripts/application_init.js.coffee"
+			],
+			[
+				"feeind",
+				"app/views/admin/feedbacks/index.html.erb"
+			],
+			[
+				"stat",
+				"app/views/admin/pages/stats.html.erb"
+			],
+			[
+				"follo",
+				"app/views/users/followers.html.erb"
+			],
+			[
+				"feedind",
+				"app/views/admin/feedbacks/index.html.erb"
+			],
+			[
+				"html",
+				"index.html"
+			],
+			[
+				"fontellem",
+				"app/assets/stylesheets/fontello-embedded.css"
+			],
+			[
+				"adminmenu",
+				"app/views/admin/shared/_menu.html.erb"
+			],
+			[
+				"admininvi",
+				"app/views/admin/invitations/index.html.erb"
+			],
+			[
+				"admininv",
+				"app/views/admin/invitations/index.html.erb"
+			],
+			[
+				"bookmarkjs",
+				"app/assets/javascripts/bookmarks.js.coffee"
+			],
+			[
+				"invitnew",
+				"app/views/admin/invitations/new.html.erb"
+			],
+			[
+				"invinew",
+				"app/views/admin/invitations/new.html.erb"
+			],
+			[
+				"adminfeed",
+				"app/views/admin/feedbacks/index.html.erb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"sherlock",
+				"/Users/artur/github/Sherlock.sublime-project"
+			],
+			[
+				"pres",
+				"/Users/artur/github/personal-jesus/app/views/notes/Preserve.sublime-project"
+			],
+			[
+				"dex",
+				"/Users/artur/github/Dexter Countdown.sublime-project"
+			],
+			[
+				"pokus",
+				"/Users/artur/github/Pokusin.sublime-project"
+			],
+			[
+				"koding",
+				"/Users/artur/koding.sublime-project"
+			],
+			[
+				"pre",
+				"/Users/artur/github/Preserve.sublime-project"
+			],
+			[
+				"personal",
+				"/Users/artur/github/PersonalJesus.sublime-project"
+			],
+			[
+				"person",
+				"/Users/artur/github/PersonalJesus.sublime-project"
+			],
+			[
+				"prese",
+				"/Users/artur/github/Preserve.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 214.0,
+	"status_bar_visible": true
+}
