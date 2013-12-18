@@ -38,7 +38,7 @@ var hideModal = function(m) {
 
 $(document).ready(function() {
 
-  var airDate = new Date(Date.UTC(2014, (1 - 1), 19, 3, 0, 0));
+  var airDate = new Date(Date.UTC(2014, (1 - 1), 1, 20, 0, 0));
   $('#countdown').countdown({
     until: airDate,
     layout: $('#countdown').html()
