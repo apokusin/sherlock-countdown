@@ -1,51 +1,72 @@
-var updateGIFImage = function(value) {
-  if (value) {
-    d = new Date();
-    $('.gif').css('background-image', "url('assets/bg_gifs/" + value + ".gif')");
-  }
-};
+(function() {
+  var airDate, centerTopMargin, doNothing, doSomething, hideModal, hideModals, nextNavItem, prevNavItem, updateActiveNav, updateGIFImage, updateURLHash, urlHash;
 
-var updateURLHash = function(value) {
-  window.location.hash = value;
-};
-
-var updateActiveNav = function(item) {
-  $('.nav_selector a').removeClass();
-  $(".nav_selector a[data-href='" + item + "']").addClass('active');
-};
-
-var nextNavItem = function() {
-  $('.nav_selector a.active').next('a').click();
-};
-
-var prevNavItem = function() {
-  $('.nav_selector a.active').prev('a').click();
-};
-
-var showModal = function(m) {
-  m.fadeIn(200);
-  centerTopMargin(m.children(".modal"));
+  updateGIFImage = function(value) {
+    var d;
+    if (value) {
+      d = new Date();
+      return $(".gif").css("background-image", "url('assets/bg_gifs/" + value + ".gif')");
+    }
   };
 
-var centerTopMargin = function(e) {
-  var top = e.height()/2;
-  e.css('margin-top', - top);
-};
+  updateURLHash = function(value) {
+    return window.location.hash = value;
+  };
 
-var hideModal = function(m) {
-  m.fadeOut(200);
-};
+  updateActiveNav = function(item) {
+    $(".nav_selector a").removeClass();
+    return $(".nav_selector a[data-href='" + item + "']").addClass("active");
+  };
 
-$(document).ready(function() {
+  nextNavItem = function() {
+    return $(".nav_selector a.active").next("a").click();
+  };
 
-  var airDate = new Date(Date.UTC(2014, 0 /* January */, 1 /* day */, 20 /* hour */, 30 /* minutes */, 0 /* seconds */));
-  $('#countdown').countdown({
+  prevNavItem = function() {
+    return $(".nav_selector a.active").prev("a").click();
+  };
+
+  this.showModal = function(m) {
+    if (!m.is(":visible")) {
+      hideModals();
+      flightCheck();
+      m.show();
+      return centerTopMargin(m.children(".modal"));
+    }
+  };
+
+  centerTopMargin = function(e) {
+    var top;
+    top = e.height() / 2;
+    return e.css("margin-top", -top);
+  };
+
+  hideModal = function(m) {
+    return m.hide();
+  };
+
+  hideModals = function(m) {
+    return $(".modal_wrap").hide();
+  };
+
+  doNothing = function() {
+    return showModal($(".go_away"));
+  };
+
+  doSomething = function() {
+    return activateSettingsPanel();
+  };
+
+  airDate = new Date(Date.UTC(2014, 0, 1, 20, 30, 0));
+
+  $("#countdown").countdown({
     until: airDate,
-    layout: $('#countdown').html()
+    layout: $("#countdown").html()
   });
 
-  $('.nav_selector a').click(function() {
-    var value = $(this).data("href");
+  $(".nav_selector a").click(function() {
+    var value;
+    value = $(this).data("href");
     updateGIFImage(value);
     updateURLHash(value);
     updateActiveNav(value);
@@ -62,36 +83,38 @@ $(document).ready(function() {
     return false;
   });
 
-  KeyboardJS.on("left, h", function() {
+  KeyboardJS.on("left", function() {
     prevNavItem();
     return false;
   });
 
-  KeyboardJS.on("right, l", function() {
+  KeyboardJS.on("right", function() {
     nextNavItem();
     return false;
   });
 
   KeyboardJS.on("questionmark", function() {
     showModal($(".help_modal"));
+    return false;
   });
 
   KeyboardJS.on("esc", function() {
-    hideModal($(".help_modal"));
+    return hideModals();
   });
 
   $(".icon-help").click(function() {
-    showModal($(".help_modal"));
+    return showModal($(".help_modal"));
   });
 
-  var urlHash = window.location.hash.substring(1);
+  urlHash = window.location.hash.substring(1);
+
   if (urlHash) {
     updateGIFImage(urlHash);
     updateActiveNav(urlHash);
   }
 
-  $('.overlay').click(function() {
-    hideModal($(".modal_wrap"));
+  $(".overlay").click(function() {
+    hideModals();
     return false;
   });
 
@@ -99,4 +122,13 @@ $(document).ready(function() {
     $("*[data-noff]").remove();
   }
 
-});
+  $(".nothing").click(function() {
+    if ($(this).hasClass("something")) {
+      doSomething();
+    } else {
+      doNothing();
+    }
+    return false;
+  });
+
+}).call(this);
