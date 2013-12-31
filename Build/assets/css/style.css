@@ -14,6 +14,91 @@ body {
   font-family: sans-serif;
   font-size: 100%; }
 
+.c_2 {
+  width: auto;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0; }
+  .c_2 p {
+    color: white;
+    text-align: center;
+    font-weight: 100;
+    font-size: 1.65em !important;
+    margin-bottom: 0.5em !important;
+    margin-top: 0.5em !important;
+    color: rgba(255, 255, 255, 0.5); }
+  .c_2 .modal {
+    width: auto;
+    margin: 0 auto; }
+    .c_2 .modal div {
+      width: 190px;
+      text-align: center;
+      margin: 0 auto;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-left: -95px;
+      margin-top: -65px; }
+    .c_2 .modal h3 {
+      font-weight: 100;
+      font-size: 28px;
+      color: #cccccc;
+      line-height: 36px;
+      margin-bottom: 1em; }
+    .c_2 .modal form {
+      width: auto; }
+      .c_2 .modal form.success input {
+        color: #8ce62c;
+        border-color: #8ce62c; }
+    .c_2 .modal input {
+      font-weight: 400;
+      width: 40px;
+      height: 50px;
+      text-transform: uppercase;
+      border: 1px solid rgba(255, 255, 255, 0.5);
+      background: transparent;
+      display: inline-block;
+      margin-right: 10px;
+      outline: 0;
+      font-size: 28px;
+      color: white;
+      line-height: 40px;
+      text-align: center;
+      cursor: pointer;
+      font-family: inherit; }
+      .c_2 .modal input:last-child {
+        margin-right: 0; }
+      .c_2 .modal input:hover {
+        color: #9b9b9b; }
+      .c_2 .modal input:focus {
+        color: white;
+        border-color: white; }
+  .c_2 .hint {
+    display: none; }
+  .c_2 ul {
+    padding-top: 2em;
+    clear: both; }
+    .c_2 ul li {
+      list-style-type: none; }
+  .c_2 strong {
+    color: #777777;
+    font-weight: 200; }
+
+.c_1 {
+  position: absolute;
+  top: 1em;
+  left: 1em; }
+  .c_1 input {
+    background: transparent;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.3em;
+    color: rgba(255, 255, 255, 0.9);
+    font-family: sans-serif;
+    outline: 0; }
+
 .gif {
   position: absolute;
   top: 0px;
@@ -25,6 +110,8 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
+  z-index: -1;
+  opacity: 0.6;
   -webkit-filter: blur(1px) grayscale(0.2);
   -webkit-transform-origin: top left;
   -moz-transform-origin: top left;
@@ -38,9 +125,7 @@ body {
   transform: scale(5);
   -webkit-transition: background-image 100ms ease-in-out;
   -moz-transition: background-image 100ms ease-in-out;
-  transition: background-image 100ms ease-in-out;
-  z-index: -1;
-  opacity: 0.6; }
+  transition: background-image 100ms ease-in-out; }
 
 .countdown_wrap {
   z-index: 15;
@@ -67,9 +152,9 @@ body {
     .countdown_wrap .main_nav:hover, .countdown_wrap .main_nav:focus {
       color: white; }
     .countdown_wrap .main_nav.left {
-      left: .1em; }
+      left: 0.1em; }
     .countdown_wrap .main_nav.right {
-      right: .1em; }
+      right: 0.1em; }
 
 .countdown {
   width: 900px;
@@ -121,12 +206,12 @@ body {
   position: absolute;
   bottom: 1.5em;
   left: 1.5em;
-  z-index: 15;
-  text-decoration: none;
-  font-weight: 400;
-  font-size: 1em; }
+  z-index: 15; }
   .links a {
-    color: white; }
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1em; }
     .links a:hover, .links a:focus {
       text-decoration: none; }
   .links .social {
@@ -209,15 +294,15 @@ body.unsupported .main_nav, body.unsupported .nav_selector {
   display: none; }
   .modal_wrap .overlay {
     background: rgba(0, 0, 0, 0.5);
-    background-color: rgba(0, 0, 0, 0.6);
-    background-image: -webkit-radial-gradient(rgba(0, 0, 0, 0.6) 10%, rgba(0, 0, 0, 0.6));
-    background-image: radial-gradient(  rgba(0, 0, 0, 0.6) 10%, rgba(0, 0, 0, 0.6));
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 20; }
+    z-index: 20;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-image: -webkit-radial-gradient(rgba(0, 0, 0, 0.6) 10%, rgba(0, 0, 0, 0.6));
+    background-image: radial-gradient(  rgba(0, 0, 0, 0.6) 10%, rgba(0, 0, 0, 0.6)); }
   .modal_wrap .modal {
     width: 17em;
     height: auto;
@@ -252,7 +337,7 @@ body.unsupported .main_nav, body.unsupported .nav_selector {
     .modal_wrap .modal a {
       font-size: 0.9em;
       text-decoration: none;
-      color: #5F7989;
+      color: #5f7989;
       text-decoration: underline; }
       .modal_wrap .modal a:hover, .modal_wrap .modal a:focus {
         text-decoration: none; }
