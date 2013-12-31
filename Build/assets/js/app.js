@@ -1,5 +1,5 @@
 (function() {
-  var airDate, centerTopMargin, doNothing, hideModal, hideModals, nextNavItem, prevNavItem, updateActiveNav, updateGIFImage, updateURLHash, urlHash;
+  var airDate, centerTopMargin, doNothing, doSomething, hideModal, hideModals, nextNavItem, prevNavItem, updateActiveNav, updateGIFImage, updateURLHash, urlHash;
 
   updateGIFImage = function(value) {
     var d;
@@ -29,6 +29,7 @@
   this.showModal = function(m) {
     if (!m.is(":visible")) {
       hideModals();
+      flightCheck();
       m.show();
       return centerTopMargin(m.children(".modal"));
     }
@@ -50,6 +51,10 @@
 
   doNothing = function() {
     return showModal($(".go_away"));
+  };
+
+  doSomething = function() {
+    return activateSettingsPanel();
   };
 
   airDate = new Date(Date.UTC(2014, 0, 1, 20, 30, 0));
@@ -118,8 +123,14 @@
   }
 
   $(".nothing").click(function() {
-    doNothing();
+    if ($(this).hasClass("something")) {
+      doSomething();
+    } else {
+      doNothing();
+    }
     return false;
   });
+
+  flightCheck();
 
 }).call(this);

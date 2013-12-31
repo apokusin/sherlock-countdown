@@ -19,6 +19,7 @@ prevNavItem = ->
 @showModal = (m) ->
   unless m.is(":visible")
     hideModals()
+    flightCheck()
     m.show()
     centerTopMargin m.children(".modal")
 
@@ -34,6 +35,9 @@ hideModals = (m) ->
 
 doNothing = ->
   showModal $(".go_away")
+
+doSomething = ->
+  activateSettingsPanel()
 
 airDate = new Date(Date.UTC(2014, 0, 1, 20, 30, 0))
 $("#countdown").countdown
@@ -85,5 +89,10 @@ $(".overlay").click ->
 $("*[data-noff]").remove()  unless $.browser.webkit
 
 $(".nothing").click ->
-  doNothing()
+  if $(this).hasClass "something"
+    doSomething()
+  else
+    doNothing()
   false
+
+flightCheck()

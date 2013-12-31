@@ -215,6 +215,17 @@ body {
     .definitely_nothing_at_all .modal ul li a {
       text-decoration: none; }
 
+.reset_local {
+  display: block; }
+
+.clear_confirm {
+  font-size: 0.9em;
+  font-weight: bold;
+  display: none; }
+  .clear_confirm a {
+    padding-right: 1em;
+    text-decoration: underline; }
+
 .go_away {
   width: auto;
   text-align: center;

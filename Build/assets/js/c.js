@@ -1,5 +1,5 @@
 (function() {
-  var activateItem, activateSettingsPanel, clearInputs, deactivateItem, form, formInputs, inputCode, parse, validCode, validateCode;
+  var activateItem, clearInputs, deactivateItem, form, formInputs, inputCode, parse, validCode, validateCode;
 
   form = $(".code_input");
 
@@ -61,6 +61,18 @@
     return _results;
   };
 
+  this.flightCheck = function() {
+    var largeNumbers, otherBG, settingsValue;
+    settingsValue = checkLocalValue("settings");
+    otherBG = checkLocalValue("otherBG");
+    largeNumbers = checkLocalValue("largeNumbers");
+    if (settingsValue) {
+      return $(".nothing").addClass("something").text("Settings");
+    } else {
+      return $(".nothing").removeClass("something").text("221B");
+    }
+  };
+
   $(".settings_list .toggle_trigger").click(function() {
     var item, value;
     item = $(this).children(".toggle").data("local");
@@ -70,6 +82,21 @@
     } else {
       return updateLocalItem(item, "true");
     }
+  });
+
+  $(".reset_local").click(function() {
+    return $(".clear_confirm").fadeIn(200);
+  });
+
+  $(".clear_confirm .yes").click(function() {
+    localStorage.clear();
+    $(".clear_confirm").fadeOut(200);
+    checkLocalSettings();
+    return flightCheck();
+  });
+
+  $(".clear_confirm .no").click(function() {
+    return $(".clear_confirm").fadeOut(200);
   });
 
   $(formInputs).autotab_magic();
@@ -97,7 +124,7 @@
     }
   };
 
-  activateSettingsPanel = function() {
+  this.activateSettingsPanel = function() {
     updateLocalItem("settings", "true");
     checkLocalSettings();
     showModal($(".definitely_nothing_at_all"));
