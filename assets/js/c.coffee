@@ -20,8 +20,10 @@ parse = (type) ->
 @updateLocalItem = (item, val) ->
   if val
     localStorage.setItem(item, val)
+    ga('send', 'event', item, val, "settings panel");
   else
     localStorage.removeItem(item)
+    ga('send', 'event', item, "disabled", "settings panel");
 
 activateItem = (m) ->
   $(m).addClass("active").removeClass("inactive")
@@ -69,7 +71,7 @@ $(".settings_list .toggle_trigger").click ->
   item = $(this).children(".toggle").data("local")
   value = checkLocalValue(item)
   if value
-    updateLocalItem item, "false"
+    updateLocalItem item
   else
     updateLocalItem item, "true"
   flightCheck()
