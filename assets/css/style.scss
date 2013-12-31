@@ -234,7 +234,7 @@ body.unsupported {
   display: none;
   .overlay {
     background: rgba(0,0,0,0.5);
-    @include radial-gradient(rgba(0,0,0,0) 10%,rgba(0,0,0,0.6));
+    @include radial-gradient(rgba(0,0,0,0.6) 10%,rgba(0,0,0,0.6));
     position: absolute;
     top: 0;
     left: 0;
@@ -246,28 +246,26 @@ body.unsupported {
     width: 17em;
     height: auto;
     min-height: 6.25em;
-    background: white;
+    color: white;
     z-index: 21;
     position: absolute;
     left: 50%;
     top: 50%;
     margin-top: -3.125em;
     margin-left: -7.8em;
-    border-radius: 0.3em;
     padding: 1em 1.5em;
-    color: rgba(75,82,91,1);
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    font-size: 1.3em;
     h2 {
       font-weight: 900;
       line-height: 1.5em;
       text-transform: uppercase;
       margin-bottom: 0.5em;
-      font-size: 1.1em;
+      font-size: 1.4em;
+      letter-spacing: 0.1em;1
     }
     p {
       line-height: 1.5em;
       margin-bottom: 1em;
-      color: #4b525b;
       font-size: 0.9em;
       code {
         font-family: monospace;
