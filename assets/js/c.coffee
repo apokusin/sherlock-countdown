@@ -20,9 +20,7 @@ $(document).ready ->
     code = [] # Blank array (probably a better way to do this
     $(formInputs).each -> # Selects each form input object
       code.push $(this).val() # Pushes each form input value to the [code] array
-
     code.join "" # Returns the code array in string form (joined)
-
 
   # Checks the code which is returned from inputCode()
   validateCode = ->
@@ -30,6 +28,8 @@ $(document).ready ->
     if c is validCode # Checks code against validCode variable
       $(form).removeClass("error").addClass "success" # Adds success class and removes error class from form
       $(".hint").fadeOut() # Hides the hint
+      showModal $(".definitely_nothing_at_all")
+      clearInputs()
       false # End of successful code input
     # else if c.length is 4 # Checks if code is 4 digits long
     #   $(".hint").fadeIn() # Shows the hint
@@ -50,9 +50,8 @@ $(document).ready ->
       clearInputs() # Clears the form
       false # End of backspace fevent
     else
-      # validateCode() # Run validation function
+      validateCode() # Run validation function
       console.log "test"
-    #   false
 
   # Clears form when clicking any of the form inputs
   $(formInputs).click ->

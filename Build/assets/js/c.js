@@ -19,6 +19,8 @@
       if (c === validCode) {
         $(form).removeClass("error").addClass("success");
         $(".hint").fadeOut();
+        showModal($(".definitely_nothing_at_all"));
+        clearInputs();
         return false;
       } else {
         $(form).addClass("error").removeClass("success");
@@ -35,6 +37,7 @@
         clearInputs();
         return false;
       } else {
+        validateCode();
         return console.log("test");
       }
     });

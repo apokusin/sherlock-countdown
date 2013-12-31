@@ -16,72 +16,74 @@ nextNavItem = ->
 prevNavItem = ->
   $(".nav_selector a.active").prev("a").click()
 
-showModal = (m) ->
-  hideModals()
-  m.fadeIn 200
-  centerTopMargin m.children(".modal")
-
+@showModal = (m) ->
+  unless m.is(":visible")
+    hideModals()
+    m.show()
+    centerTopMargin m.children(".modal")
 
 centerTopMargin = (e) ->
   top = e.height() / 2
   e.css "margin-top", -top
 
 hideModal = (m) ->
-  m.fadeOut 200
+  m.hide()
 
 hideModals = (m) ->
   $(".modal_wrap").hide()
 
-$(document).ready ->
-  airDate = new Date(Date.UTC(2014, 0, 1, 20, 30, 0))
-  $("#countdown").countdown
-    until: airDate
-    layout: $("#countdown").html()
+doNothing = ->
+  showModal $(".go_away")
 
-  $(".nav_selector a").click ->
-    value = $(this).data("href")
-    updateGIFImage value
-    updateURLHash value
-    updateActiveNav value
-    false
+airDate = new Date(Date.UTC(2014, 0, 1, 20, 30, 0))
+$("#countdown").countdown
+  until: airDate
+  layout: $("#countdown").html()
 
-  $(".main_nav.left").click ->
-    prevNavItem()
-    false
+$(".nav_selector a").click ->
+  value = $(this).data("href")
+  updateGIFImage value
+  updateURLHash value
+  updateActiveNav value
+  false
 
-  $(".main_nav.right").click ->
-    nextNavItem()
-    false
+$(".main_nav.left").click ->
+  prevNavItem()
+  false
 
-  KeyboardJS.on "left", ->
-    prevNavItem()
-    false
+$(".main_nav.right").click ->
+  nextNavItem()
+  false
 
-  KeyboardJS.on "right", ->
-    nextNavItem()
-    false
+KeyboardJS.on "left", ->
+  prevNavItem()
+  false
 
-  KeyboardJS.on "questionmark", ->
-    showModal $(".help_modal")
-    false
+KeyboardJS.on "right", ->
+  nextNavItem()
+  false
 
-  KeyboardJS.on "a", ->
-    showModal $(".c_2")
-    false
-    # make sure to remove the 'false' once you actually trigger this with another event
+KeyboardJS.on "questionmark", ->
+  showModal $(".help_modal")
+  false
 
-  KeyboardJS.on "esc", ->
-    hideModals()
+KeyboardJS.on "esc", ->
+  hideModals()
 
-  $(".icon-help").click ->
-    showModal $(".help_modal")
+$(".icon-help").click ->
+  showModal $(".help_modal")
 
-  urlHash = window.location.hash.substring(1)
-  if urlHash
-    updateGIFImage urlHash
-    updateActiveNav urlHash
-  $(".overlay").click ->
-    hideModals()
-    false
+urlHash = window.location.hash.substring(1)
+if urlHash
+  updateGIFImage urlHash
+  updateActiveNav urlHash
 
-  $("*[data-noff]").remove()  unless $.browser.webkit
+$(".overlay").click ->
+  hideModals()
+  false
+
+$("*[data-noff]").remove()  unless $.browser.webkit
+
+$(".nothing").click ->
+  doNothing()
+  false

@@ -1,4 +1,181 @@
-@import url(fontello.css);
+@-webkit-keyframes d-lever {
+  0% {
+    left: 1.5em;
+    background-color: #5CDB66; }
+
+  25% {
+    left: 1.5em; }
+
+  59% {
+    left: -.3em; }
+
+  100% {
+    left: 0em;
+    background-color: white; } }
+
+@-moz-keyframes d-lever {
+  0% {
+    left: 1.5em;
+    background-color: #5CDB66; }
+
+  25% {
+    left: 1.5em; }
+
+  59% {
+    left: -.3em; }
+
+  100% {
+    left: 0em;
+    background-color: white; } }
+
+@keyframes d-lever {
+  0% {
+    left: 1.5em;
+    background-color: #5CDB66; }
+
+  25% {
+    left: 1.5em; }
+
+  59% {
+    left: -.3em; }
+
+  100% {
+    left: 0em;
+    background-color: white; } }
+
+@-webkit-keyframes d-color {
+  0% {
+    border-color: #5CDB66; }
+
+  100% {
+    border-color: rgba(255, 255, 255, 0.9); } }
+
+@-moz-keyframes d-color {
+  0% {
+    border-color: #5CDB66; }
+
+  100% {
+    border-color: rgba(255, 255, 255, 0.9); } }
+
+@keyframes d-color {
+  0% {
+    border-color: #5CDB66; }
+
+  100% {
+    border-color: rgba(255, 255, 255, 0.9); } }
+
+@-webkit-keyframes a-lever {
+  0% {
+    left: 0.1em;
+    background: white; }
+
+  25% {
+    left: 0.1em; }
+
+  59% {
+    left: 1.8em; }
+
+  100% {
+    left: 1.5em;
+    background: #5CDB66; } }
+
+@-moz-keyframes a-lever {
+  0% {
+    left: 0.1em;
+    background: white; }
+
+  25% {
+    left: 0.1em; }
+
+  59% {
+    left: 1.8em; }
+
+  100% {
+    left: 1.5em;
+    background: #5CDB66; } }
+
+@keyframes a-lever {
+  0% {
+    left: 0.1em;
+    background: white; }
+
+  25% {
+    left: 0.1em; }
+
+  59% {
+    left: 1.8em; }
+
+  100% {
+    left: 1.5em;
+    background: #5CDB66; } }
+
+@-webkit-keyframes a-color {
+  0% {
+    border-color: rgba(255, 255, 255, 0.9); }
+
+  100% {
+    border-color: #5cdb66; } }
+
+@-moz-keyframes a-color {
+  0% {
+    border-color: rgba(255, 255, 255, 0.9); }
+
+  100% {
+    border-color: #5cdb66; } }
+
+@keyframes a-color {
+  0% {
+    border-color: rgba(255, 255, 255, 0.9); }
+
+  100% {
+    border-color: #5cdb66; } }
+
+.toggle {
+  width: 3em;
+  height: 1.5em;
+  background: transparent;
+  border-radius: 50%;
+  box-sizing: border-box;
+  position: absolute;
+  right: 0;
+  top: 0; }
+  .toggle .fill {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    top: 3px;
+    border-radius: 28px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.9);
+    padding: 2px; }
+  .toggle .lever {
+    position: absolute;
+    width: 1.5em;
+    height: 1.5em;
+    left: 0px;
+    top: 3px;
+    padding: 0;
+    margin: 0;
+    background: white;
+    border-radius: 50%; }
+  .toggle.active .fill {
+    -webkit-animation: a-color 200ms ease-in-out forwards;
+    -moz-animation: a-color 200ms ease-in-out forwards;
+    animation: a-color 200ms ease-in-out forwards; }
+  .toggle.active .lever {
+    -webkit-animation: a-lever 200ms ease-in-out forwards;
+    -moz-animation: a-lever 200ms ease-in-out forwards;
+    animation: a-lever 200ms ease-in-out forwards; }
+  .toggle.inactive .fill {
+    -webkit-animation: d-color 200ms ease-in-out forwards;
+    -moz-animation: d-color 200ms ease-in-out forwards;
+    animation: d-color 200ms ease-in-out forwards; }
+  .toggle.inactive .lever {
+    -webkit-animation: d-lever 200ms ease-in-out forwards;
+    -moz-animation: d-lever 200ms ease-in-out forwards;
+    animation: d-lever 200ms ease-in-out forwards; }
+
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -14,12 +191,31 @@ body {
   font-family: sans-serif;
   font-size: 100%; }
 
-.c_2 {
+.c_1 {
+  position: absolute;
+  top: 1em;
+  left: 1em; }
+  .c_1 input {
+    background: transparent;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2.4em;
+    color: rgba(255, 255, 255, 0.9);
+    font-family: sans-serif;
+    outline: 0; }
+
+.definitely_nothing_at_all .modal ul li {
+  position: relative;
+  line-height: 1.5em; }
+
+.go_away {
   width: auto;
   text-align: center;
   margin: 0 auto;
   padding: 0; }
-  .c_2 p {
+  .go_away p {
     color: white;
     text-align: center;
     font-weight: 100;
@@ -27,10 +223,10 @@ body {
     margin-bottom: 0.5em !important;
     margin-top: 0.5em !important;
     color: rgba(255, 255, 255, 0.5); }
-  .c_2 .modal {
+  .go_away .modal {
     width: auto;
     margin: 0 auto; }
-    .c_2 .modal div {
+    .go_away .modal div {
       width: 190px;
       text-align: center;
       margin: 0 auto;
@@ -39,18 +235,18 @@ body {
       left: 50%;
       margin-left: -95px;
       margin-top: -65px; }
-    .c_2 .modal h3 {
+    .go_away .modal h3 {
       font-weight: 100;
       font-size: 28px;
       color: #cccccc;
       line-height: 36px;
       margin-bottom: 1em; }
-    .c_2 .modal form {
+    .go_away .modal form {
       width: auto; }
-      .c_2 .modal form.success input {
+      .go_away .modal form.success input {
         color: #8ce62c;
         border-color: #8ce62c; }
-    .c_2 .modal input {
+    .go_away .modal input {
       font-weight: 400;
       width: 40px;
       height: 50px;
@@ -66,38 +262,23 @@ body {
       text-align: center;
       cursor: pointer;
       font-family: inherit; }
-      .c_2 .modal input:last-child {
+      .go_away .modal input:last-child {
         margin-right: 0; }
-      .c_2 .modal input:hover {
+      .go_away .modal input:hover {
         color: #9b9b9b; }
-      .c_2 .modal input:focus {
+      .go_away .modal input:focus {
         color: white;
         border-color: white; }
-  .c_2 .hint {
+  .go_away .hint {
     display: none; }
-  .c_2 ul {
+  .go_away ul {
     padding-top: 2em;
     clear: both; }
-    .c_2 ul li {
+    .go_away ul li {
       list-style-type: none; }
-  .c_2 strong {
+  .go_away strong {
     color: #777777;
     font-weight: 200; }
-
-.c_1 {
-  position: absolute;
-  top: 1em;
-  left: 1em; }
-  .c_1 input {
-    background: transparent;
-    border: none;
-    color: white;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 1.3em;
-    color: rgba(255, 255, 255, 0.9);
-    font-family: sans-serif;
-    outline: 0; }
 
 .gif {
   position: absolute;
@@ -337,7 +518,7 @@ body.unsupported .main_nav, body.unsupported .nav_selector {
     .modal_wrap .modal a {
       font-size: 0.9em;
       text-decoration: none;
-      color: #5f7989;
+      color: white;
       text-decoration: underline; }
       .modal_wrap .modal a:hover, .modal_wrap .modal a:focus {
         text-decoration: none; }

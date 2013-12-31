@@ -1,0 +1,86 @@
+$speed: 200ms;
+
+
+//////////////////
+//  DEACTIVATE  //
+//////////////////
+
+@include keyframes(d-lever) {
+   0% { left: 1.5em; background-color: #5CDB66; }
+  25% { left: 1.5em; }
+  59% { left: -.3em; }
+  100% { left: 0em; background-color: white }
+}
+
+@include keyframes(d-color) {
+  0% { border-color: #5CDB66; }
+  100% { border-color: rgba(255,255,255,0.9); }
+}
+
+
+////////////////
+//  ACTIVATE  //
+////////////////
+
+@include keyframes(a-lever) {
+  0% { left: 0.1em; background: white}
+  25% { left: 0.1em; }
+  59% { left: 1.8em;}
+  100% { left: 1.5em; background: #5CDB66}
+}
+
+@include keyframes(a-color) {
+  0% { border-color: rgba(255,255,255,0.9) }
+  100% { border-color: #5CDB66 }
+}
+.toggle {
+  width: 3em;
+  height: 1.5em;
+  background: transparent;
+  border-radius: 50%;
+  box-sizing: border-box;
+  position: absolute;
+  right: 0;
+  top: 0;
+  .fill {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    top: 3px;
+    border-radius: 28px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,0.9);
+    padding: 2px
+  }
+  .lever {
+    position: absolute;
+    width: 1.5em;
+    height: 1.5em;
+    left: 0px;
+    top: 3px;
+    padding: 0;
+    margin: 0;
+    background: white;
+    border-radius: 50%;
+  }
+
+  &.active {
+    .fill {
+        @include animation(a-color $speed ease-in-out forwards);
+      }
+    .lever {
+        @include animation(a-lever $speed ease-in-out forwards);
+    }
+  }
+
+  &.inactive {
+    .fill {
+        @include animation(d-color $speed ease-in-out forwards);
+      }
+    .lever {
+        @include animation(d-lever $speed ease-in-out forwards);
+    }
+  }
+
+}
