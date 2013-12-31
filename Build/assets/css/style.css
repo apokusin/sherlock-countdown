@@ -206,9 +206,14 @@ body {
     font-family: sans-serif;
     outline: 0; }
 
-.definitely_nothing_at_all .modal ul li {
-  position: relative;
-  line-height: 1.5em; }
+.definitely_nothing_at_all {
+  width: 20em; }
+  .definitely_nothing_at_all .modal ul li {
+    position: relative;
+    line-height: 2em;
+    font-size: 0.9em; }
+    .definitely_nothing_at_all .modal ul li a {
+      text-decoration: none; }
 
 .go_away {
   width: auto;
