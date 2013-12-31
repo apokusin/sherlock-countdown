@@ -1,19 +1,18 @@
-@import "fontello.css";
-
+@import url(fontello.css);
 *, *:before, *:after {
-  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
   text-rendering: optimizeLegibility;
   margin: 0;
-  padding: 0;
- }
+  padding: 0; }
 
 body {
   background: black;
   font-family: sans-serif;
-  font-size: 100%;
-}
+  font-size: 100%; }
 
 .gif {
   position: absolute;
@@ -22,17 +21,26 @@ body {
   width: 20%;
   height: 20%;
   background-color: black;
-  background-image: url('../bg_gifs/hands.gif');
+  background-image: url(../bg_gifs/hands.gif);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
   -webkit-filter: blur(1px) grayscale(0.2);
-  @include transform-origin(top left);
-  @include transform(scale(5));
-  @include transition(background-image 100ms ease-in-out);
+  -webkit-transform-origin: top left;
+  -moz-transform-origin: top left;
+  -ms-transform-origin: top left;
+  -o-transform-origin: top left;
+  transform-origin: top left;
+  -webkit-transform: scale(5);
+  -moz-transform: scale(5);
+  -ms-transform: scale(5);
+  -o-transform: scale(5);
+  transform: scale(5);
+  -webkit-transition: background-image 100ms ease-in-out;
+  -moz-transition: background-image 100ms ease-in-out;
+  transition: background-image 100ms ease-in-out;
   z-index: -1;
-  opacity: 0.6;
-}
+  opacity: 0.6; }
 
 .countdown_wrap {
   z-index: 15;
@@ -43,58 +51,46 @@ body {
   margin-top: -60px;
   height: 100px;
   color: white;
-  text-align: center;
-  &:hover, &:focus {
-    .main_nav {
-      color: rgba(255,255,255,0.5)
-    }
-  }
-  .main_nav {
+  text-align: center; }
+  .countdown_wrap:hover .main_nav, .countdown_wrap:focus .main_nav {
+    color: rgba(255, 255, 255, 0.5); }
+  .countdown_wrap .main_nav {
     position: absolute;
     top: 50%;
     font-size: 2.5em;
     height: 2.5em;
     margin-top: -0.5em;
-    color: rgba(255,255,255,0);
+    color: rgba(255, 255, 255, 0);
     text-decoration: none;
     font-weight: 100;
-    z-index: 21;
-    &:hover, &:focus {
-      color: white;
-    }
-    &.left {
-      left: .1em;
-    }
-    &.right {
-      right: .1em;
-    }
-  }
-}
+    z-index: 21; }
+    .countdown_wrap .main_nav:hover, .countdown_wrap .main_nav:focus {
+      color: white; }
+    .countdown_wrap .main_nav.left {
+      left: .1em; }
+    .countdown_wrap .main_nav.right {
+      right: .1em; }
 
 .countdown {
   width: 900px;
-  margin: 0 auto;
-}
+  margin: 0 auto; }
 
 .counter {
   float: left;
   text-align: center;
-  width: 25%;
-}
+  width: 25%; }
 
 .amount {
   font-weight: bold;
   font-size: 4em;
   margin-bottom: 0.1em;
-  color: rgba(255,255,255,0.9)
-}
+  color: rgba(255, 255, 255, 0.9); }
 
 .label {
   font-size: 1.1em;
   font-weight: 400;
   text-transform: uppercase;
-  color: rgba(255,255,255,0.8)
-}
+  color: rgba(255, 255, 255, 0.8); }
 
 .seo {
   color: transparent;
@@ -106,8 +102,7 @@ body {
   z-index: -1;
   width: 0;
   height: 0;
-  overflow: hidden;
-}
+  overflow: hidden; }
 
 .bbc_logo {
   text-indent: -150px;
@@ -120,36 +115,29 @@ body {
   position: absolute;
   right: 1.5em;
   bottom: 0;
-  cursor: pointer;
-}
+  cursor: pointer; }
 
 .links {
   position: absolute;
   bottom: 1.5em;
   left: 1.5em;
   z-index: 15;
-  a {
-    color: white;
-    &:hover, &:focus {
-      text-decoration: none;
-    }
-  }
   text-decoration: none;
   font-weight: 400;
-  font-size: 1em;
-  .social {
+  font-size: 1em; }
+  .links a {
+    color: white; }
+    .links a:hover, .links a:focus {
+      text-decoration: none; }
+  .links .social {
     height: 21px;
     margin-top: 1em;
-    opacity: 0.5;
-    &:hover, &:focus {
-      opacity: 1;
-    }
-    a {
+    opacity: 0.5; }
+    .links .social:hover, .links .social:focus {
+      opacity: 1; }
+    .links .social a {
       width: auto;
-      float: left;
-    }
-  }
-}
+      float: left; }
 
 .nav_selector {
   position: absolute;
@@ -160,8 +148,8 @@ body {
   height: 1.56em;
   margin: 0 auto;
   text-align: center;
-  background: transparent;
-  .icon-help {
+  background: transparent; }
+  .nav_selector .icon-help {
     color: rgba(255, 255, 255, 0.5);
     width: 1em;
     height: 1em;
@@ -173,12 +161,10 @@ body {
     display: inline-block;
     border-radius: 50%;
     outline: 0;
-    cursor: pointer;
-    &:hover, &:focus {
-      color: white;
-    }
-  }
-  > a {
+    cursor: pointer; }
+    .nav_selector .icon-help:hover, .nav_selector .icon-help:focus {
+      color: white; }
+  .nav_selector > a {
     width: 1em;
     height: 1em;
     margin-left: 0.75em;
@@ -188,27 +174,18 @@ body {
     background: rgba(255, 255, 255, 0.3);
     border-radius: 50%;
     margin-top: 7px;
-    outline: 0;
-    &:hover, &:focus {
-      background-color: rgba(255,255,255,0.75);
-    }
-    &:first-child {
-      margin-left: 0;
-    }
-    &.active {
-      background: white;
-    }
-  }
-}
+    outline: 0; }
+    .nav_selector > a:hover, .nav_selector > a:focus {
+      background-color: rgba(255, 255, 255, 0.75); }
+    .nav_selector > a:first-child {
+      margin-left: 0; }
+    .nav_selector > a.active {
+      background: white; }
 
-body.unsupported {
-  .browser_indicator {
-    display: block;
-  }
-  .main_nav, .nav_selector {
-    display: none;
-  }
-}
+body.unsupported .browser_indicator {
+  display: block; }
+body.unsupported .main_nav, body.unsupported .nav_selector {
+  display: none; }
 
 .browser_indicator {
   position: absolute;
@@ -217,32 +194,31 @@ body.unsupported {
   left: 0;
   right: 0;
   text-align: center;
-  display: none;
-  a {
+  display: none; }
+  .browser_indicator a {
     color: white;
     text-decoration: none;
-    background: rgba(0,0,0,0.5);
+    background: rgba(0, 0, 0, 0.5);
     padding: 1em;
     width: auto;
     display: inline-block;
     border-radius: 10px;
-    border: 2px solid white;
-  }
-}
+    border: 2px solid white; }
 
 .modal_wrap {
-  display: none;
-  .overlay {
-    background: rgba(0,0,0,0.5);
-    @include radial-gradient(rgba(0,0,0,0.6) 10%,rgba(0,0,0,0.6));
+  display: none; }
+  .modal_wrap .overlay {
+    background: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.6);
+    background-image: -webkit-radial-gradient(rgba(0, 0, 0, 0.6) 10%, rgba(0, 0, 0, 0.6));
+    background-image: radial-gradient(  rgba(0, 0, 0, 0.6) 10%, rgba(0, 0, 0, 0.6));
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 20;
-  }
-  .modal {
+    z-index: 20; }
+  .modal_wrap .modal {
     width: 17em;
     height: auto;
     min-height: 6.25em;
@@ -254,81 +230,76 @@ body.unsupported {
     margin-top: -3.125em;
     margin-left: -7.8em;
     padding: 1em 1.5em;
-    font-size: 1.3em;
-    h2 {
+    font-size: 1.3em; }
+    .modal_wrap .modal h2 {
       font-weight: 900;
       line-height: 1.5em;
       text-transform: uppercase;
       margin-bottom: 0.5em;
       font-size: 1.4em;
-      letter-spacing: 0.1em;1
-    }
-    p {
+      letter-spacing: 0.1em; }
+    .modal_wrap .modal p {
       line-height: 1.5em;
       margin-bottom: 1em;
-      font-size: 0.9em;
-      code {
+      font-size: 0.9em; }
+      .modal_wrap .modal p code {
         font-family: monospace;
-        background-color: rgba(75,82,91,.05);
+        background-color: rgba(75, 82, 91, 0.05);
         padding: 0 0.25em;
         font-weight: 400;
         font-size: 1.1em;
-        border-radius: 0.25em;
-      }
-    }
-    a {
+        border-radius: 0.25em; }
+    .modal_wrap .modal a {
       font-size: 0.9em;
       text-decoration: none;
       color: #5F7989;
-      text-decoration: underline;
-      &:hover, &:focus {
-        text-decoration: none;
-      }
-    }
-  }
-}
+      text-decoration: underline; }
+      .modal_wrap .modal a:hover, .modal_wrap .modal a:focus {
+        text-decoration: none; }
 
-.seconds .amount {
-  // @include animation-name(clockSlide);
-  // @include animation-duration(1s);
-  // // @include animation-delay(100ms);
-  // @include animation-timing-function(ease-out);
-  // @include animation-iteration-count(infinite);
-}
-
-@include keyframes(clockSlide) {
+@-webkit-keyframes clockSlide {
   0% {
-    // @include transform(scale(1.2));
-    opacity: 0;
-  }
-  55% {
-    @include transform(translateY(0%));
-    opacity: 1;
-  }
-  90% {
-    // opacity: 0;
-  }
-  100% {
-    // @include transform(scale(0.8));
-    opacity: 0;
-  }
-}
+    opacity: 0; }
 
+  55% {
+    -webkit-transform: translateY(0%);
+    opacity: 1; }
+
+  100% {
+    opacity: 0; } }
+
+@-moz-keyframes clockSlide {
+  0% {
+    opacity: 0; }
+
+  55% {
+    -moz-transform: translateY(0%);
+    opacity: 1; }
+
+  100% {
+    opacity: 0; } }
+
+@keyframes clockSlide {
+  0% {
+    opacity: 0; }
+
+  55% {
+    transform: translateY(0%);
+    opacity: 1; }
+
+  100% {
+    opacity: 0; } }
 
 @media screen and (max-width: 900px) {
   body {
-    font-size: 13px;
-  }
+    font-size: 13px; }
+
   .countdown {
-    width: 100%;
-  }
-}
-
-
+    width: 100%; } }
 @media screen and (max-width: 500px) {
   body {
-    font-size: 12px;
-  }
+    font-size: 12px; }
+
   .links {
     display: block;
     position: relative;
@@ -338,19 +309,18 @@ body.unsupported {
     clear: both;
     left: 0;
     right: 0;
-    padding-top: 2em;
-  }
+    padding-top: 2em; }
+
   .countdown_wrap {
     position: relative;
     top: 0;
     margin-top: 0;
     display: block;
-    width: 100%;
-    .counter {
+    width: 100%; }
+    .countdown_wrap .counter {
       width: 50%;
-      margin-top: 4em;
-    }
-  }
+      margin-top: 4em; }
+
   .nav_selector {
     display: block;
     position: relative;
@@ -358,12 +328,10 @@ body.unsupported {
     bottom: 0;
     clear: both;
     padding-top: 6em;
-    padding-bottom: 2em;
-  }
+    padding-bottom: 2em; }
+
   .bbc_logo {
     display: block;
     position: static;
     margin: 0 auto;
-    margin-top: 2em
-  }
-}
+    margin-top: 2em; } }
