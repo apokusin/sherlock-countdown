@@ -21,9 +21,11 @@
 
   this.updateLocalItem = function(item, val) {
     if (val) {
-      return localStorage.setItem(item, val);
+      localStorage.setItem(item, val);
+      return ga('send', 'event', item, val, "settings panel");
     } else {
-      return localStorage.removeItem(item);
+      localStorage.removeItem(item);
+      return ga('send', 'event', item, "disabled", "settings panel");
     }
   };
 
@@ -87,7 +89,7 @@
     item = $(this).children(".toggle").data("local");
     value = checkLocalValue(item);
     if (value) {
-      updateLocalItem(item, "false");
+      updateLocalItem(item);
     } else {
       updateLocalItem(item, "true");
     }
