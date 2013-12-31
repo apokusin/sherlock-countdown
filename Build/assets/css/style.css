@@ -337,6 +337,7 @@ body {
   .countdown_wrap:hover .main_nav, .countdown_wrap:focus .main_nav {
     color: rgba(255, 255, 255, 0.5); }
   .countdown_wrap .main_nav {
+    display: none;
     position: absolute;
     top: 50%;
     font-size: 2.5em;

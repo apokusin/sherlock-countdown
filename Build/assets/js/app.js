@@ -131,6 +131,4 @@
     return false;
   });
 
-  flightCheck();
-
 }).call(this);

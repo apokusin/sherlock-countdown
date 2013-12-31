@@ -95,4 +95,3 @@ $(".nothing").click ->
     doNothing()
   false
 
-flightCheck()

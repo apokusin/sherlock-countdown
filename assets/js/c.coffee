@@ -48,12 +48,20 @@ deactivateItem = (m) ->
 
 @flightCheck = ->
   settingsValue = checkLocalValue("settings")
-  otherBG = checkLocalValue("otherBG")
+  hideSocial = checkLocalValue("hideSocial")
   largeNumbers = checkLocalValue("largeNumbers")
   if settingsValue
     $(".nothing").addClass("something").text("Settings")
   else
     $(".nothing").removeClass("something").text("221B")
+  if hideSocial
+    $(".links").hide()
+    $(".social").hide()
+    $(".bbc_logo").hide()
+  else
+    $(".links").show()
+    $(".social").show()
+    $(".bbc_logo").show()
 
 
 
@@ -64,6 +72,7 @@ $(".settings_list .toggle_trigger").click ->
     updateLocalItem item, "false"
   else
     updateLocalItem item, "true"
+  flightCheck()
 
 $(".reset_local").click ->
   $(".clear_confirm").fadeIn(200)
@@ -127,3 +136,4 @@ $(formInputs).keyup -> # On keyup in any of the form inputs
 $(formInputs).click ->
   clearInputs() # Clears form
 
+flightCheck()

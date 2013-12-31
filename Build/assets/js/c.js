@@ -62,14 +62,23 @@
   };
 
   this.flightCheck = function() {
-    var largeNumbers, otherBG, settingsValue;
+    var hideSocial, largeNumbers, settingsValue;
     settingsValue = checkLocalValue("settings");
-    otherBG = checkLocalValue("otherBG");
+    hideSocial = checkLocalValue("hideSocial");
     largeNumbers = checkLocalValue("largeNumbers");
     if (settingsValue) {
-      return $(".nothing").addClass("something").text("Settings");
+      $(".nothing").addClass("something").text("Settings");
     } else {
-      return $(".nothing").removeClass("something").text("221B");
+      $(".nothing").removeClass("something").text("221B");
+    }
+    if (hideSocial) {
+      $(".links").hide();
+      $(".social").hide();
+      return $(".bbc_logo").hide();
+    } else {
+      $(".links").show();
+      $(".social").show();
+      return $(".bbc_logo").show();
     }
   };
 
@@ -78,10 +87,11 @@
     item = $(this).children(".toggle").data("local");
     value = checkLocalValue(item);
     if (value) {
-      return updateLocalItem(item, "false");
+      updateLocalItem(item, "false");
     } else {
-      return updateLocalItem(item, "true");
+      updateLocalItem(item, "true");
     }
+    return flightCheck();
   });
 
   $(".reset_local").click(function() {
@@ -150,5 +160,7 @@
   $(formInputs).click(function() {
     return clearInputs();
   });
+
+  flightCheck();
 
 }).call(this);
