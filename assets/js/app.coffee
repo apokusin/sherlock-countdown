@@ -75,6 +75,7 @@ KeyboardJS.on "esc", ->
   hideModals()
 
 $(".icon-help").click ->
+  ga('send', 'event', "Help Icon", "click", "main nav");
   showModal $(".help_modal")
 
 urlHash = window.location.hash.substring(1)

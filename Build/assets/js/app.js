@@ -103,6 +103,7 @@
   });
 
   $(".icon-help").click(function() {
+    ga('send', 'event', "Help Icon", "click", "main nav");
     return showModal($(".help_modal"));
   });
 
