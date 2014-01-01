@@ -39,7 +39,7 @@ doNothing = ->
 doSomething = ->
   activateSettingsPanel()
 
-airDate = new Date(Date.UTC(2014, 0, 1, 20, 30, 0))
+airDate = new Date(Date.UTC(2014, 0, 5, 21, 0, 0))
 $("#countdown").countdown
   until: airDate
   layout: $("#countdown").html()
