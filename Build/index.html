@@ -16,32 +16,8 @@
   <meta content='yes' name='apple-mobile-web-app-capable'>
   <meta content='black' name='apple-mobile-web-app-status-bar-style'>
   <meta content='Sherlock' name='apple-mobile-web-app-title'>
-  <link rel='stylesheet' href='assets/css/fontello.css'>
-<link rel='stylesheet' href='assets/css/normalize.css'>
-<link rel='stylesheet' href='assets/css/style.css'>
+  <link rel='stylesheet' href='ccb538825da6f15cfa40c2c5c4e6115a.css'>
   
-        <!-- Hammer reload -->
-          <script>
-            setInterval(function(){
-              try {
-                if(typeof ws != 'undefined' && ws.readyState == 1){return true;}
-                ws = new WebSocket('ws://'+(location.host || 'localhost').split(':')[0]+':35353')
-                ws.onopen = function(){ws.onclose = function(){document.location.reload()}}
-                ws.onmessage = function(){
-                  var links = document.getElementsByTagName('link'); 
-                    for (var i = 0; i < links.length;i++) { 
-                    var link = links[i]; 
-                    if (link.rel === 'stylesheet' && !link.href.match(/typekit/)) { 
-                      href = link.href.replace(/((&|\?)hammer=)[^&]+/,''); 
-                      link.href = href + (href.indexOf('?')>=0?'&':'?') + 'hammer='+(new Date().valueOf());
-                    }
-                  }
-                }
-              }catch(e){}
-            }, 1000)
-          </script>
-        <!-- /Hammer reload -->
-      
 </head>
 
 
@@ -151,13 +127,7 @@
 
 </script>
 
-<script src='assets/js/jquery-1.8.3.min.js'></script>
-<script src='assets/js/jquery.countdown.min.js'></script>
-<script src='assets/js/keyboard.js'></script>
-<script src='assets/js/jquery.autotab.min.js'></script>
-<script src='assets/js/app.js'></script>
-<script src='assets/js/c.js'></script>
-<script src='assets/js/toggles.js'></script>
+<script src='b4af4676b181fcdd56146e17ee3ccaf6.js'></script>
 
 
 </body>
