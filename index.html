@@ -22,7 +22,7 @@
 
 
 <body>
-  <h1 class="seo">January 1 12:30AM - An awesome countdown to the premiere of Sherlock Season 3. Sherlock is a British television crime drama that presents a contemporary update of Sir Arthur Conan Doyle's Sherlock Holmes detective stories. Created by Steven Moffat and Mark Gatiss, it stars Benedict Cumberbatch as Sherlock Holmes and Martin Freeman as Doctor John Watson.</h1>
+  <p class="description">January 5 8:30PM GMT - An awesome countdown to the premiere of Sherlock Season 3. Sherlock is a British television crime drama that presents a contemporary update of Sir Arthur Conan Doyle's Sherlock Holmes detective stories. Created by Steven Moffat and Mark Gatiss, it stars Benedict Cumberbatch as Sherlock Holmes and Martin Freeman as Doctor John Watson.</p>
 
   <div class="countdown_wrap">
     <div class="countdown" id="countdown">
@@ -129,6 +129,14 @@
 
 <!-- @javascript jquery-1.8.3.min jquery.countdown.min keyboard jquery.autotab.min app c toggles -->
 
+<script>
 
+  var airDate = new Date(Date.UTC(2014, 0, 5, 20, 30, 0));
+
+  $("#countdown").countdown({
+    until: airDate,
+    layout: $("#countdown").html()
+  });
+</script>
 </body>
 </html>

@@ -1,5 +1,5 @@
 (function() {
-  var airDate, centerTopMargin, doNothing, doSomething, hideModal, hideModals, nextNavItem, prevNavItem, updateActiveNav, updateGIFImage, updateURLHash, urlHash;
+  var centerTopMargin, doNothing, doSomething, hideModal, hideModals, nextNavItem, prevNavItem, updateActiveNav, updateGIFImage, updateURLHash, urlHash;
 
   updateGIFImage = function(value) {
     var d;
@@ -56,13 +56,6 @@
   doSomething = function() {
     return activateSettingsPanel();
   };
-
-  airDate = new Date(Date.UTC(2014, 0, 5, 21, 0, 0));
-
-  $("#countdown").countdown({
-    until: airDate,
-    layout: $("#countdown").html()
-  });
 
   $(".nav_selector a").click(function() {
     var value;
