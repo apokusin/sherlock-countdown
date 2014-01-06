@@ -1,5 +1,5 @@
 (function() {
-  var activateItem, clearInputs, deactivateItem, form, formInputs, inputCode, parse, validCode, validateCode;
+  var activateItem, airDateUK, airDateUS, clearInputs, deactivateItem, form, formInputs, inputCode, parse, validCode, validateCode;
 
   form = $(".code_input");
 
@@ -64,10 +64,10 @@
   };
 
   this.flightCheck = function() {
-    var hideSocial, largeNumbers, settingsValue;
+    var hideSocial, settingsValue, usaVersion;
     settingsValue = checkLocalValue("settings");
     hideSocial = checkLocalValue("hideSocial");
-    largeNumbers = checkLocalValue("largeNumbers");
+    usaVersion = checkLocalValue("usa_version");
     if (settingsValue) {
       $(".nothing").addClass("something").text("Settings");
     } else {
@@ -76,11 +76,43 @@
     if (hideSocial) {
       $(".links").hide();
       $(".social").hide();
-      return $(".bbc_logo").hide();
+      $(".bbc_logo").hide();
     } else {
       $(".links").show();
       $(".social").show();
-      return $(".bbc_logo").show();
+      $(".bbc_logo").show();
+    }
+    if (usaVersion) {
+      return updateCountdown('us');
+    } else {
+      return updateCountdown('uk');
+    }
+  };
+
+  airDateUS = new Date(2014, 0, 19, 22, 0, 0);
+
+  airDateUK = new Date(2014, 0, 12, 20, 30, 0);
+
+  this.updateCountdown = function(country) {
+    var airDate, timezone;
+    if (country === "us") {
+      airDate = airDateUS;
+      timezone = -8;
+    } else {
+      airDate = airDateUK;
+      timezone = 0;
+    }
+    if ($("#countdown").hasClass("hasCountdown")) {
+      return $("#countdown").countdown('option', {
+        'until': airDate,
+        'timezone': timezone
+      });
+    } else {
+      return $("#countdown").countdown({
+        until: airDate,
+        timezone: timezone,
+        layout: $("#countdown_layout").html()
+      });
     }
   };
 
