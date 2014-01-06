@@ -51,7 +51,7 @@ deactivateItem = (m) ->
 @flightCheck = ->
   settingsValue = checkLocalValue("settings")
   hideSocial = checkLocalValue("hideSocial")
-  largeNumbers = checkLocalValue("largeNumbers")
+  usaVersion = checkLocalValue("usa_version")
   if settingsValue
     $(".nothing").addClass("something").text("Settings")
   else
@@ -64,8 +64,30 @@ deactivateItem = (m) ->
     $(".links").show()
     $(".social").show()
     $(".bbc_logo").show()
+  if usaVersion
+    updateCountdown('us')
+  else
+    updateCountdown('uk')
 
 
+
+airDateUS = new Date(2014, 0, 19, 22, 0, 0)
+airDateUK = new Date(2014, 0, 12, 20, 30, 0)
+
+@updateCountdown = (country) ->
+  if country is "us"
+    airDate = airDateUS
+    timezone = -8
+  else
+    airDate = airDateUK
+    timezone = 0
+  if $("#countdown").hasClass("hasCountdown")
+    $("#countdown").countdown('option', {'until': airDate, 'timezone': timezone})
+  else
+    $("#countdown").countdown
+      until: airDate
+      timezone: timezone
+      layout: $("#countdown_layout").html()
 
 $(".settings_list .toggle_trigger").click ->
   item = $(this).children(".toggle").data("local")

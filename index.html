@@ -5,8 +5,6 @@
     <div class="countdown" id="countdown">
       January 12 8:30PM GMT - An awesome countdown to the premiere of Sherlock Season 3. Sherlock is a British television crime drama that presents a contemporary update of Sir Arthur Conan Doyle's Sherlock Holmes detective stories. Created by Steven Moffat and Mark Gatiss, it stars Benedict Cumberbatch as Sherlock Holmes and Martin Freeman as Doctor John Watson.
     </div>
-    <a href="#" class="main_nav left icon-left-open-big"></a>
-    <a href="#" class="main_nav right icon-right-open-big  "></a>
   </div>
   <div id="countdown_layout">
     <div class="counter days">
@@ -87,8 +85,9 @@
       <h2>Sekret</h2>
       <ul class="settings_list">
         <!-- <li><a href="#" class="toggle_trigger">Large numbers overlay <div class="toggle inactive" data-local="largeNumbers"><div class="fill"></div><div class="lever"></div></div></a></li> -->
-        <li><a href="#" class="toggle_trigger">Hide social links<div class="toggle inactive" data-local="hideSocial"><div class="fill"></div><div class="lever"></div></div></a></li>
-        <li><a href="#" class="toggle_trigger">Keep this panel unlocked?<div class="toggle inactive" data-local="settings"><div class="fill"></div><div class="lever"></div></div></a></li>
+        <li><a href="#" class="toggle_trigger">USA Air Date<div class="toggle inactive" data-local="usa_version"></div></a></li>
+        <li><a href="#" class="toggle_trigger">Hide social links<div class="toggle inactive" data-local="hideSocial"></div></a></li>
+        <li><a href="#" class="toggle_trigger">Keep this panel unlocked?<div class="toggle inactive" data-local="settings"></div></a></li>
         <li><a href="#" class="reset_local">Reset to default <div class="clear_confirm"><a href="#" class="yes">Reset</a><a href="#" class="no">Nevermind</a></a></li>
       </ul>
     </div>
@@ -98,14 +97,5 @@
 
 <!-- @include _footer -->
 
-<script>
-
-  var airDate = new Date(Date.UTC(2014, 0, 12, 20, 30, 0));
-
-  $("#countdown").countdown({
-    until: airDate,
-    layout: $("#countdown_layout").html()
-  });
-</script>
 </body>
 </html>

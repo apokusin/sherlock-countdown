@@ -90,4 +90,3 @@ $(".nothing").click ->
   else
     doNothing()
   false
-
