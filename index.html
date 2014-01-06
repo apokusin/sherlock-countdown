@@ -1,29 +1,30 @@
 <!-- @include _header -->
 
 <body>
-  <p class="description">January 5 8:30PM GMT - An awesome countdown to the premiere of Sherlock Season 3. Sherlock is a British television crime drama that presents a contemporary update of Sir Arthur Conan Doyle's Sherlock Holmes detective stories. Created by Steven Moffat and Mark Gatiss, it stars Benedict Cumberbatch as Sherlock Holmes and Martin Freeman as Doctor John Watson.</p>
-
   <div class="countdown_wrap">
     <div class="countdown" id="countdown">
-      <div class="counter days">
-        <div class="amount">{dn}</div>
-        <div class="label">{dl}</div>
-      </div>
-      <div class="counter hours">
-        <div class="amount">{hn}</div>
-        <div class="label">{hl}</div>
-      </div>
-      <div class="counter minutes">
-        <div class="amount">{mn}</div>
-        <div class="label">{ml}</div>
-      </div>
-      <div class="counter seconds">
-        <div class="amount">{sn}</div>
-        <div class="label">{sl}</div>
-      </div>
+      January 12 8:30PM GMT - An awesome countdown to the premiere of Sherlock Season 3. Sherlock is a British television crime drama that presents a contemporary update of Sir Arthur Conan Doyle's Sherlock Holmes detective stories. Created by Steven Moffat and Mark Gatiss, it stars Benedict Cumberbatch as Sherlock Holmes and Martin Freeman as Doctor John Watson.
     </div>
     <a href="#" class="main_nav left icon-left-open-big"></a>
     <a href="#" class="main_nav right icon-right-open-big  "></a>
+  </div>
+  <div id="countdown_layout">
+    <div class="counter days">
+      <div class="amount">{dn}</div>
+      <div class="label">{dl}</div>
+    </div>
+    <div class="counter hours">
+      <div class="amount">{hn}</div>
+      <div class="label">{hl}</div>
+    </div>
+    <div class="counter minutes">
+      <div class="amount">{mn}</div>
+      <div class="label">{ml}</div>
+    </div>
+    <div class="counter seconds">
+      <div class="amount">{sn}</div>
+      <div class="label">{sl}</div>
+    </div>
   </div>
 
   <div class="nav_selector">
@@ -99,11 +100,11 @@
 
 <script>
 
-  var airDate = new Date(Date.UTC(2014, 0, 5, 20, 30, 0));
+  var airDate = new Date(Date.UTC(2014, 0, 12, 20, 30, 0));
 
   $("#countdown").countdown({
     until: airDate,
-    layout: $("#countdown").html()
+    layout: $("#countdown_layout").html()
   });
 </script>
 </body>

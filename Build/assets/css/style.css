@@ -324,6 +324,9 @@ body {
   -moz-transition: background-image 100ms ease-in-out;
   transition: background-image 100ms ease-in-out; }
 
+#countdown_layout {
+  display: none; }
+
 .countdown_wrap {
   z-index: 15;
   position: absolute;
