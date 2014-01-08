@@ -97,7 +97,7 @@
     var airDate, timezone;
     if (country === "us") {
       airDate = airDateUS;
-      timezone = -8;
+      timezone = -5;
     } else {
       airDate = airDateUK;
       timezone = 0;

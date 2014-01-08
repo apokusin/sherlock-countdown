@@ -77,7 +77,7 @@ airDateUK = new Date(2014, 0, 12, 20, 30, 0)
 @updateCountdown = (country) ->
   if country is "us"
     airDate = airDateUS
-    timezone = -8
+    timezone = -5
   else
     airDate = airDateUK
     timezone = 0
